@@ -2,11 +2,15 @@
 
 
 
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
 
-</script><tw-passagedata pid="1" name="Welcome" tags="" position="435,104" size="100,100">(set: $name to (prompt: &quot;What is your name?&quot;, &quot;&quot;))
+
+
+</script><tw-passagedata pid="1" name="Welcome" tags="" position="449,0" size="100,100">(set: $name to (prompt: &quot;What is your name?&quot;, &quot;&quot;))
 (set: $age to (prompt: &quot;How old are you?&quot;, &quot;&quot;))
 
 (if: (num: $age) &gt; 15) [ Sorry, you&#39;re too old to enter the spelling bee. 	Try shaving that mustache and coming back.
@@ -21,10 +25,10 @@ Oh, wow, okay... (link-goto:&quot;wax that mustache and try again?&quot;, &quot;
 (link-reveal: &quot;I&#39;m adopted...&quot;)[
 
 Oh, wow, um... I&#39;ll just go have a cigarette, (link-goto:&quot;and you can try again?&quot;, &quot;Welcome&quot;)]
-] (else:) [ Perfect. You&#39;re number 169. (link-goto: &quot;Go get in line over there.&quot;, &quot;Line&quot;)
+] (else:) [ Perfect. You&#39;re #169. (link-goto: &quot;Go get in line over there.&quot;, &quot;Line&quot;)
 ]
 
-</tw-passagedata><tw-passagedata pid="2" name="Line" tags="" position="553,102" size="100,100">You hug your parents and go get into the long, swarming line of kids. You see the girl you met on the bus, Bhindaya, a ways up in line. She is talking to a cute boy next to her and playing with her hair.
+</tw-passagedata><tw-passagedata pid="2" name="Line" tags="" position="447,113" size="100,100">You hug your parents and go get into the long, swarming line of kids. You see the girl you met on the bus, Bhindaya, a ways up in line. She is talking to a cute boy next to her and playing with her hair.
 
 (link-reveal: &quot;Get her attention.&quot;)[
 
@@ -33,33 +37,317 @@ Bhindaya turns and waves at you, a huge smile on her face.
 (link-goto: &quot;Wave back.&quot;, &quot;Line2&quot;)
 (link-goto: &quot;Flip her off.&quot;, &quot;Line Optional&quot;)
 ]
-(link-goto: &quot;Ignore.&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="831,104" size="100,100">(Judge introduces herself, blah blah blah)
+(link-goto: &quot;Ignore.&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="451,337" size="100,100">&quot;Good evening everyone, and welcome to 16th annual Two-Shoes Spelling Bee hosted at the SpringHill Suites in lovely Bakersfield, California. We may not be Scripps, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a cosmo at the hotel bar after the show.&quot;) [
 
-(Cheating warning!)
+&quot;Everyone here can be proud of their munchkin tonight, because it takes discipline and perserverence to study the art of spelling in the age of distractions. Why my own son does nothing but sit around and play video games, and probably couldn&#39;t spell &quot;linguistics&quot; if his life depended on it. I mean, he still got into Stanford, (link-reveal: &quot;but he&#39;s an exceptional child.&quot;) [
 
-(Javascript to know if you&#39;re cheating is the next thing)
+&quot;By the way, I&#39;m Judge April Rose Holly, and I&#39;ll be your host for this event. Before I was a judge here I was a high school English teacher, and before that I was a legal secretary. Back in those days we had to use Windows 98, and Word didn&#39;t automatically put that red squiggly line under all your misspelled words, (link-reveal: &quot;you had to run a manual spell check at the end.&quot;) [
 
-</tw-passagedata><tw-passagedata pid="4" name="Line Optional" tags="" position="610,220" size="100,100">Bindhaya laughs. &quot;You&#39;re so funny, $name. Come by my hotel room later!&quot;
+&quot;And before I was a secretary I was a beauty queen, only one stroke of bad luck short of Miss California 1996.&quot; Judge Holly smiles and waves to the crowd. &quot;But my love of competition never died. And hosting these bees is my passion.
 
-(link-goto: &quot;Continue.&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="5" name="Line2" tags="" position="676,96" size="100,100">You start to get nervous as it&#39;s almost time to go on stage. Like lots of the other kids in line, you begin to flip through the study guide, hoping they start with the easy ones.
+(link-goto: &quot;The rules are simple.&quot;, &quot;Rules&quot;)[]]]]
 
-Embarrass
-Liason
-Harass
+</tw-passagedata><tw-passagedata pid="4" name="Line Optional" tags="" position="334,171" size="100,100">Bindhaya laughs. &quot;You&#39;re so funny, $name. Come by my hotel room later!&quot;
 
-(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="6" name="Fail" tags="" position="435,377" size="100,100">You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.
+(link-goto: &quot;Continue.&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="5" name="Line2" tags="" position="450,225" size="100,100">You start to get nervous as it&#39;s almost time to go on stage. Like most of the other kids in line, you begin to flip through the study guide, hoping they start with the easy ones.
 
-(link-goto: &quot;Retry&quot;, &quot;Welcome&quot;)</tw-passagedata><tw-passagedata pid="7" name="Test 1" tags="" position="54,196" size="100,100">Your word is: (audio of word)
+(link-reveal: &quot;Embarrass&quot;) [
+   &amp;nbsp emˈberəs
+   &amp;nbsp &lt;i&gt;verb&lt;/i&gt;
+   &amp;nbsp cause (someone) to feel awkward, self-conscious, or ashamed. 
+	&amp;nbsp &quot;The child would never embarrass her parents by losing the competition.&quot;
+	]
+(link-reveal: &quot;Impeccable&quot;) [
+	&amp;nbsp imˈpekəb(ə)l
+	&amp;nbsp &lt;i&gt;adjective&lt;/i&gt;
+	&amp;nbsp (of behavior, performance, or appearance) in accordance with the highest standards of propriety; faultless.
+	&amp;nbsp &quot;Everyone agreed the judge was of impeccable character.&quot;
+	]
+(link-reveal: &quot;Liaison&quot;) [
+	&amp;nbsp lee-ey-zawn
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a sexual relationship, especially one that is secret and involves unfaithfulness to a partner.
+	&amp;nbsp &quot;A liaison between two parents occurred in the hotel bar after bedtime.&quot;
+	]
+
+(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="6" name="Fail 1" tags="" position="320,443" size="100,100">&quot;Oh number 169, that is so not right. Goodbye and good luck!&quot;
+
+&lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
+
+(link-goto: &quot;Retry&quot;, &quot;Test 1&quot;)
+(link-goto: &quot;Restart&quot;, &quot;Welcome&quot;)</tw-passagedata><tw-passagedata pid="7" name="Enter Word 1" tags="" position="680,444" size="100,100">(set: $word1 to (prompt: &quot;Spell the word:&quot;, &quot;&quot;))
+{(if: $word1 is &quot;impeccable&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
+](else-if: $word1 is &quot;Impeccable&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
+](else-if: $word1 is &quot;IMPECCABLE&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 1&quot;)
+]}
+
+</tw-passagedata><tw-passagedata pid="8" name="Test 1" tags="" position="568,446" size="100,100">Your word is: (audio of word) &lt;!-- impeccable --&gt;
 &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
-There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot;&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
 
-You have one minute.
+	&quot;Everyone agreed the judge was of ________ character.&quot;]
+	
+Please make sure the word is properly formatted before submitting.
+Acceptable formats: embarrass, Embarrass, or EMBARRASS.
+You don&#39;t want to lose on a technicality.
+&lt;p&gt;(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word 1&quot;)
 
-(link-goto: &quot;I&#39;m ready to spell the word.&quot;, &quot;Enter Word 1&quot;)
-
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly watches you&quot;;
+}&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="9" name="Rules" tags="" position="450,446" size="100,100">&quot;You waddle up to the podium and I announce your word. You can write it down on the podium for practice, ask me to repeat the word, or even ask me to use it (link-reveal: &quot;in a sentence if you&#39;d like.&quot;)[
 
-</tw-passagedata><tw-passagedata pid="8" name="Enter Word 1" tags="" position="171,199" size="100,100">(set: $word1 to (prompt: &quot;Spell the word:&quot;, &quot;&quot;))
+&quot;No cheating and no funny business of any kind. You have three minutes or you&#39;re out of the competition, and I mean immediately. No loitering on the podium after you&#39;re eliminated, no crying, and definitely no arguing parents after the fact. You can &lt;i&gt;try&lt;/i&gt; to persuade me with gifts. It probably won&#39;t work, (link-reveal: &quot;but I do like a good Pinot Grigio.&quot;)[
 
-</tw-passagedata></tw-storydata>
+&quot;Ready? (link-goto: &quot;Let&#39;s begin!&quot;, &quot;Test 1&quot;)]]</tw-passagedata><tw-passagedata pid="10" name="After Word 1" tags="" position="457,556.5" size="100,100">You watch the rest of the kids go up to the podium. Only a few need to be escorted off the stage in tears.
+
+Bhindaya goes up, beaming confidence. She spells her word correctly.
+
+(link-goto: &quot;Competition is fierce.&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="11" name="Night 1" tags="" position="457,673" size="100,100">Your parents are proud. They promise to bring you back a to-go box and leave you to study in your room.
+
+(link-goto: &quot;Study.&quot;, &quot;Study Guide 1&quot;)
+(link-goto: &quot;Go to Bhindaya&#39;s room.&quot;, &quot;Bhindaya 1&quot;)
+(link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)</tw-passagedata><tw-passagedata pid="12" name="Study Guide 1" tags="" position="342,671.5" size="100,100">Study Guide, Night One
+
+(link-reveal: &quot;canal&quot;)[
+	&amp;nbsp kəˈnal
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp an artificial waterway constructed to allow the passage of boats or ships inland or to convey water for irrigation.
+	&amp;nbsp &quot;They rode up the canal in his father&#39;s yacht, and she wondered where the night would take them.&quot;
+	]
+(link-reveal: &quot;pouted&quot;)[
+	&amp;nbsp pout
+	&amp;nbsp &lt;i&gt;verb&lt;/i&gt;
+	&amp;nbsp push one&#39;s lips or one&#39;s bottom lip forward as an expression of petulant annoyance or in order to make oneself look sexually attractive.
+	&amp;nbsp &quot;The child pouted when her parents forgot to bring her a doggy bag.&quot;
+	]
+(link-reveal: &quot;newlywed&quot;)[
+	&amp;nbsp n(y)o͞olēˌwed
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a recently married person.
+	&amp;nbsp &quot;Newlyweds Tom and Susan sometimes dreamed of running away separately.&quot;
+	]
+(link-reveal: &quot;balloonist&quot;)[
+	&amp;nbsp bəlunɪst
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp A balloonist is a person who flies a hot-air balloon.
+	&amp;nbsp &quot;No one wanted to be alone with the creepy balloonist.&quot;
+	]
+(link-reveal: &quot;severely&quot;)[
+	&amp;nbsp səˈvirlē
+	&amp;nbsp &lt;i&gt;adverb&lt;/i&gt;
+	&amp;nbsp to an undesirably great or intense degree.
+	&amp;nbsp &quot;The routine appendectomy left the child severely disfigured.&quot;
+	]
+(link-reveal: &quot;slobber&quot;)[
+	&amp;nbsp slɒbər
+	&amp;nbsp &lt;i&gt;verb&lt;/i&gt;
+	&amp;nbsp have saliva dripping copiously from the mouth.
+	&amp;nbsp &quot;It looks like someone slobbered all over the hotel pillow.&quot;
+	]
+(link-reveal: &quot;tonic&quot;)[
+	&amp;nbsp tänik
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a medicinal substance taken to give a feeling of vigor or well-being.
+	&amp;nbsp &quot;He wasn&#39;t sure what was in that mystery tonic, but he felt great.&quot;
+	]
+(link-reveal: &quot;nursery&quot;)[
+	&amp;nbsp nərs(ə)rē
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a room in a house for the special use of young children.
+	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
+	]
+	
+(link-goto: &quot;Back&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="13" name="Bhindaya 1" tags="" position="222,670.5" size="100,100">You knock on Bhindaya&#39;s door. She bursts it open with a smile. &quot;Hi $name, want to study together?&quot;
+
+(link-goto: &quot;Study&quot;, &quot;Study Guide 1&quot;)
+(link-reveal: &quot;Talk&quot;)[
+
+	&quot;Who was that boy you were talking to?&quot; You ask.
+	
+	&quot;Oh, Aiden?&quot; Bhindaya says. &quot;He&#39;s so cute. He&#39;s right down the hall and he said we could hang out but I&#39;m too chicken.&quot;
+	
+	(link-reveal: &quot;We could break into the mini-bar.&quot;)[
+	
+		&quot;Oh my god, you&#39;re crazy.&quot;]
+		
+	(link-reveal: &quot;I could go talk to him.&quot;)[
+	
+		&quot;Oh my god, you&#39;re the best. He&#39;s in room #203, just a couple down. I always hear his parents arguing.&quot;
+		
+		(link-goto: &quot;Go to Aiden&#39;s room&quot;, &quot;Aiden 1&quot;)]
+	]</tw-passagedata><tw-passagedata pid="14" name="Aiden 1" tags="" position="104,669.5" size="100,100">You hear arguing outside #203. (link-reveal: &quot;Knock.&quot;)[
+	
+	Aiden opens the door slightly and looks at you through the crack. &quot;Hello?&quot; He says.
+	
+	&quot;Hi, I&#39;m $name from the spelling bee?&quot; You say.
+	
+	&quot;Oh, um, I can&#39;t really talk right now, what&#39;s up?&quot; Aiden says.
+	
+	&quot;You know Bhindaya?&quot; You ask.
+	
+	(link-reveal: &quot;His face lights up.&quot;)[
+	
+	&quot;You know her? Hang on one second,&quot; Aiden closes the door then returns a moment later, holding a piece of paper. &quot;I can&#39;t hang out tonight, but will you please give her this?&quot;
+	
+	&quot;(link-goto: &quot;Sure.&quot;, &quot;Note from Aiden&quot;)&quot;
+	]
+]</tw-passagedata><tw-passagedata pid="15" name="Note from Aiden" tags="" position="99,798.5" size="100,100">You&#39;re in the hallway alone.
+
+(link-reveal: &quot;Read the note.&quot;)[
+
+	Dear Bhindaya:
+	
+	I know we are supposed to be focused on spelling and college applications, but I think you are really cute. I wanted to tell you I like you a lot and if you like me back, please tell me but if you don&#39;t like me back can you please just pretend this never happened, because I don&#39;t think I can handle that rejection?
+	
+	xoxo, Aiden
+	
+	(link-reveal: &quot;Change the note.&quot;) [
+	
+	Dear Bhindaya:
+	
+	I know we are supposed to be focused on spelling and college applications, and your face is really creeping me out. Could you please just never talk to me again so I can focus on the competition? Also, I think you&#39;re super ugly and lame, just thought you should know.
+	
+	xoxo, Aiden
+	
+	(link-goto: &quot;Do it!&quot;, &quot;Bhindaya 2b&quot;)	
+	]
+]
+(link-goto: &quot;Give original note to Bhindaya.&quot;, &quot;Bhindaya 2a&quot;)</tw-passagedata><tw-passagedata pid="16" name="Bhindaya 2b" tags="" position="201,913.5" size="100,100">You bring the note back to Bhindaya.
+
+&quot;He wrote me a note?&quot; She says. &quot;That&#39;s so cute. I have to go read it and then study. See you tomorrow!&quot;
+
+(link-goto: &quot;Go back to your room.&quot;, &quot;Night 1b&quot;)
+
+(set: $bad to it + 1) &lt;!-- This variable increments --&gt;
+(set: $meanToBhindaya to true) &lt;!-- Won&#39;t display for a test but looks like it&#39;s working --&gt;
+
+
+</tw-passagedata><tw-passagedata pid="17" name="Night 1b" tags="" position="119,1031.5" size="100,100">Your parents are still out.
+
+(link-goto: &quot;Study.&quot;, &quot;Study Guide 1b&quot;)
+(link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)
+
+&lt;!-- Tested bad variable, counts as 1 --&gt;
+</tw-passagedata><tw-passagedata pid="18" name="Study Guide 1b" tags="" position="119,1142.5" size="100,100">Study Guide, Night One
+
+(link-reveal: &quot;canal&quot;)[
+	&amp;nbsp kəˈnal
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp an artificial waterway constructed to allow the passage of boats or ships inland or to convey water for irrigation.
+	&amp;nbsp &quot;They rode up the canal in his father&#39;s yacht, and she wondered where the night would take them.&quot;
+	]
+(link-reveal: &quot;pouted&quot;)[
+	&amp;nbsp pout
+	&amp;nbsp &lt;i&gt;verb&lt;/i&gt;
+	&amp;nbsp push one&#39;s lips or one&#39;s bottom lip forward as an expression of petulant annoyance or in order to make oneself look sexually attractive.
+	&amp;nbsp &quot;The child pouted when her parents forgot to bring her a doggy bag.&quot;
+	]
+(link-reveal: &quot;newlywed&quot;)[
+	&amp;nbsp n(y)o͞olēˌwed
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a recently married person.
+	&amp;nbsp &quot;Newlyweds Tom and Susan sometimes dreamed of running away separately.&quot;
+	]
+(link-reveal: &quot;balloonist&quot;)[
+	&amp;nbsp bəlunɪst
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp A balloonist is a person who flies a hot-air balloon.
+	&amp;nbsp &quot;No one wanted to be alone with the creepy balloonist.&quot;
+	]
+(link-reveal: &quot;severely&quot;)[
+	&amp;nbsp səˈvirlē
+	&amp;nbsp &lt;i&gt;adverb&lt;/i&gt;
+	&amp;nbsp to an undesirably great or intense degree.
+	&amp;nbsp &quot;The routine appendectomy left the child severely disfigured.&quot;
+	]
+(link-reveal: &quot;slobber&quot;)[
+	&amp;nbsp slɒbər
+	&amp;nbsp &lt;i&gt;verb&lt;/i&gt;
+	&amp;nbsp have saliva dripping copiously from the mouth.
+	&amp;nbsp &quot;It looks like someone slobbered all over the hotel pillow.&quot;
+	]
+(link-reveal: &quot;tonic&quot;)[
+	&amp;nbsp tänik
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a medicinal substance taken to give a feeling of vigor or well-being.
+	&amp;nbsp &quot;He wasn&#39;t sure what was in that mystery tonic, but he felt great.&quot;
+	]
+(link-reveal: &quot;nursery&quot;)[
+	&amp;nbsp nərs(ə)rē
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a room in a house for the special use of young children.
+	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
+	]
+	
+(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="19" name="Morning 2" tags="" position="457,1244.5" size="100,100">It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
+
+&quot;...and everyone, please remember to clear out quickly after the show tonight, as the SpringHill Suites (link-reveal: &quot;hosts bingo night on Tuesdays.&quot;)[
+	
+	You watch as (link-reveal: &quot;most of the other kids head up on stage.&quot;)[
+		
+		{(if: $meanToBhindaya is true)[Bhindaya&#39;s number is called to stage.
+		
+		&lt;p&gt;She walks up slowly, her face red and puffy.&lt;/p&gt;
+		
+		&lt;p&gt;&quot;Okay, number #121, your word is &#39;repulsive.&#39;&quot;&lt;/p&gt;
+		
+		&lt;p&gt;Bindhaya stammers. &quot;Uh... um...&quot; Her voice is breaking. &quot;Could you use it in a s-sentence, please?&quot;&lt;/p&gt;
+		
+		&lt;p&gt;&quot;Sure can,&quot; Judge Holly says. &quot;&#39;He found the girl quite repulsive.&quot;&lt;/p&gt;
+		
+		&lt;p&gt;(link-goto: &quot;Bindhaya bursts into sobs and runs off the stage.&quot;, &quot;Test 2&quot;)&lt;/p&gt;
+		]
+		(else:)[Bhindaya spells her word correctly. (link-goto: &quot;It&#39;s your turn.&quot;, &quot;Test 2&quot;)]}
+	]
+]
+]
+
+&lt;!-- Works perfectly! --&gt;</tw-passagedata><tw-passagedata pid="20" name="Bhindaya 2a" tags="" position="24,914.5" size="100,100">You bring the note back to Bhindaya.
+
+&quot;He wrote me a note?&quot; She says. &quot;That&#39;s so cute. I have to go read it and then study. See you tomorrow!&quot;
+
+(link-goto: &quot;Go back to your room.&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="21" name="Test 2" tags="" position="457,1359.5" size="100,100">Your word is: (audio of word) &lt;!--balloonist--&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;No one wanted to be alone with the creepy ________.&quot;]
+	
+Please make sure the word is properly formatted before submitting.
+Acceptable formats: embarrass, Embarrass, or EMBARRASS.
+You don&#39;t want to lose on a technicality.
+&lt;p&gt;(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word 2&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly watches you&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="22" name="Enter Word 2" tags="" position="459,1474.5" size="100,100">(set: $word2 to (prompt: &quot;Spell the word:&quot;, &quot;&quot;))&lt;!-- balloonist --&gt;
+{(if: $word2 is &quot;balloonist&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
+](else-if: $word1 is &quot;Ballonist&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
+](else-if: $word1 is &quot;BALLOONIST&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
+]}
+
+</tw-passagedata><tw-passagedata pid="23" name="Fail 2" tags="" position="342,1472.5" size="100,100">&quot;Oh number 169, you sweet summer child. Goodbye and good luck!&quot;
+
+&lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
+
+(link-goto: &quot;Retry&quot;, &quot;Test 2&quot;)
+(link-goto: &quot;Restart&quot;, &quot;Welcome&quot;)</tw-passagedata><tw-passagedata pid="24" name="After Word 2" tags="" position="456,1598.5" size="100,100">You breathe a sigh of relief.
+
+$bad</tw-passagedata></tw-storydata>
