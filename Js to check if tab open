@@ -20,3 +20,14 @@ window.onblur = userCheated;
 window.onblur = userCheated;
 </body>
 </html>
+
+*******************************************************************************
+
+
+function userCheated() {
+    // The user cheated by leaving this window (e.g opening another window)
+    // Do something
+    alert("You can't cheat!");
+}
+
+window.onblur = userCheated;
