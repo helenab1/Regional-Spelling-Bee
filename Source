@@ -4,7 +4,9 @@
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 
 
@@ -37,7 +39,7 @@ Bhindaya turns and waves at you, a huge smile on her face.
 (link-goto: &quot;Wave back.&quot;, &quot;Line2&quot;)
 (link-goto: &quot;Flip her off.&quot;, &quot;Line Optional&quot;)
 ]
-(link-goto: &quot;Ignore.&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="451,337" size="100,100">&quot;Good evening everyone, and welcome to 16th annual Two-Shoes Spelling Bee hosted at the SpringHill Suites in lovely Bakersfield, California. We may not be Scripps, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a cosmo at the hotel bar after the show.&quot;) [
+(link-goto: &quot;Ignore.&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="451,337" size="100,100">&quot;Good evening everyone, and welcome to 16th annual Two-Shoes Spelling Bee hosted at the SpringHill Suites in lovely Bakersfield, California. We may not be the big leagues yet, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a cosmo at the hotel bar after the show.&quot;) [
 
 &quot;Everyone here can be proud of their munchkin tonight, because it takes discipline and perserverence to study the art of spelling in the age of distractions. Why my own son does nothing but sit around and play video games, and probably couldn&#39;t spell &quot;linguistics&quot; if his life depended on it. I mean, he still got into Stanford, (link-reveal: &quot;but he&#39;s an exceptional child.&quot;) [
 
@@ -100,22 +102,22 @@ You don&#39;t want to lose on a technicality.
 
 &lt;script&gt;function myFunction() {
 	var x = document.getElementById(&quot;fname&quot;);
-	x.value = &quot;Judge Holly watches you&quot;;
+	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;</tw-passagedata><tw-passagedata pid="9" name="Rules" tags="" position="450,446" size="100,100">&quot;You waddle up to the podium and I announce your word. You can write it down on the podium for practice, ask me to repeat the word, or even ask me to use it (link-reveal: &quot;in a sentence if you&#39;d like.&quot;)[
 
 &quot;No cheating and no funny business of any kind. You have three minutes or you&#39;re out of the competition, and I mean immediately. No loitering on the podium after you&#39;re eliminated, no crying, and definitely no arguing parents after the fact. You can &lt;i&gt;try&lt;/i&gt; to persuade me with gifts. It probably won&#39;t work, (link-reveal: &quot;but I do like a good Pinot Grigio.&quot;)[
 
-&quot;Ready? (link-goto: &quot;Let&#39;s begin!&quot;, &quot;Test 1&quot;)]]</tw-passagedata><tw-passagedata pid="10" name="After Word 1" tags="" position="457,556.5" size="100,100">You watch the rest of the kids go up to the podium. Only a few need to be escorted off the stage in tears.
+&quot;Ready? (link-goto: &quot;Let&#39;s begin!&quot;, &quot;Test 1&quot;)]]</tw-passagedata><tw-passagedata pid="10" name="After Word 1" tags="" position="457,556" size="100,100">You watch the rest of the kids go up to the podium. Only a few need to be escorted off the stage in tears.
 
 Bhindaya goes up, beaming confidence. She spells her word correctly.
 
 (link-goto: &quot;Competition is fierce.&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="11" name="Night 1" tags="" position="457,673" size="100,100">Your parents are proud. They promise to bring you back a to-go box and leave you to study in your room.
 
-(link-goto: &quot;Study.&quot;, &quot;Study Guide 1&quot;)
-(link-goto: &quot;Go to Bhindaya&#39;s room.&quot;, &quot;Bhindaya 1&quot;)
-(link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)</tw-passagedata><tw-passagedata pid="12" name="Study Guide 1" tags="" position="342,671.5" size="100,100">Study Guide, Night One
+(link-goto: &quot;Study&quot;, &quot;Study Guide 1&quot;)
+(link-goto: &quot;Go to Bhindaya&#39;s room&quot;, &quot;Bhindaya 1&quot;)
+(link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)</tw-passagedata><tw-passagedata pid="12" name="Study Guide 1" tags="" position="342,671" size="100,100">Study Guide, Night One
 
 (link-reveal: &quot;canal&quot;)[
 	&amp;nbsp kəˈnal
@@ -166,7 +168,7 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
 	]
 	
-(link-goto: &quot;Back&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="13" name="Bhindaya 1" tags="" position="222,670.5" size="100,100">You knock on Bhindaya&#39;s door. She bursts it open with a smile. &quot;Hi $name, want to study together?&quot;
+(link-goto: &quot;Back&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="13" name="Bhindaya 1" tags="" position="222,670" size="100,100">You knock on Bhindaya&#39;s door. She bursts it open with a smile. &quot;Hi $name, want to study together?&quot;
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 1&quot;)
 (link-reveal: &quot;Talk&quot;)[
@@ -176,15 +178,15 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&quot;Oh, Aiden?&quot; Bhindaya says. &quot;He&#39;s so cute. He&#39;s right down the hall and he said we could hang out but I&#39;m too chicken.&quot;
 	
 	(link-reveal: &quot;We could break into the mini-bar.&quot;)[
-	
-		&quot;Oh my god, you&#39;re crazy.&quot;]
+
+		&quot;Oh my god, you&#39;re crazy.&quot;]	
 		
 	(link-reveal: &quot;I could go talk to him.&quot;)[
 	
 		&quot;Oh my god, you&#39;re the best. He&#39;s in room #203, just a couple down. I always hear his parents arguing.&quot;
 		
 		(link-goto: &quot;Go to Aiden&#39;s room&quot;, &quot;Aiden 1&quot;)]
-	]</tw-passagedata><tw-passagedata pid="14" name="Aiden 1" tags="" position="104,669.5" size="100,100">You hear arguing outside #203. (link-reveal: &quot;Knock.&quot;)[
+	]</tw-passagedata><tw-passagedata pid="14" name="Aiden 1" tags="" position="104,669" size="100,100">You hear arguing outside #203. (link-reveal: &quot;Knock.&quot;)[
 	
 	Aiden opens the door slightly and looks at you through the crack. &quot;Hello?&quot; He says.
 	
@@ -200,7 +202,7 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	
 	&quot;(link-goto: &quot;Sure.&quot;, &quot;Note from Aiden&quot;)&quot;
 	]
-]</tw-passagedata><tw-passagedata pid="15" name="Note from Aiden" tags="" position="99,798.5" size="100,100">You&#39;re in the hallway alone.
+]</tw-passagedata><tw-passagedata pid="15" name="Note from Aiden" tags="" position="99,798" size="100,100">You&#39;re in the hallway alone.
 
 (link-reveal: &quot;Read the note.&quot;)[
 
@@ -221,7 +223,7 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	(link-goto: &quot;Do it!&quot;, &quot;Bhindaya 2b&quot;)	
 	]
 ]
-(link-goto: &quot;Give original note to Bhindaya.&quot;, &quot;Bhindaya 2a&quot;)</tw-passagedata><tw-passagedata pid="16" name="Bhindaya 2b" tags="" position="201,913.5" size="100,100">You bring the note back to Bhindaya.
+(link-goto: &quot;Give original note to Bhindaya.&quot;, &quot;Bhindaya 2a&quot;)</tw-passagedata><tw-passagedata pid="16" name="Bhindaya 2b" tags="" position="203,913" size="100,100">You bring the note back to Bhindaya.
 
 &quot;He wrote me a note?&quot; She says. &quot;That&#39;s so cute. I have to go read it and then study. See you tomorrow!&quot;
 
@@ -231,13 +233,13 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 (set: $meanToBhindaya to true) &lt;!-- Won&#39;t display for a test but looks like it&#39;s working --&gt;
 
 
-</tw-passagedata><tw-passagedata pid="17" name="Night 1b" tags="" position="119,1031.5" size="100,100">Your parents are still out.
+</tw-passagedata><tw-passagedata pid="17" name="Night 1b" tags="" position="119,1031" size="100,100">Your parents are still out.
 
-(link-goto: &quot;Study.&quot;, &quot;Study Guide 1b&quot;)
+(link-goto: &quot;Study&quot;, &quot;Study Guide 1b&quot;)
 (link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)
 
 &lt;!-- Tested bad variable, counts as 1 --&gt;
-</tw-passagedata><tw-passagedata pid="18" name="Study Guide 1b" tags="" position="119,1142.5" size="100,100">Study Guide, Night One
+</tw-passagedata><tw-passagedata pid="18" name="Study Guide 1b" tags="" position="118,1142" size="100,100">Study Guide, Night One
 
 (link-reveal: &quot;canal&quot;)[
 	&amp;nbsp kəˈnal
@@ -288,9 +290,9 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
 	]
 	
-(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="19" name="Morning 2" tags="" position="457,1244.5" size="100,100">It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
+(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="19" name="Morning 2" tags="" position="456,1244" size="100,100">It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
 
-&quot;...and everyone, please remember to clear out quickly after the show tonight, as the SpringHill Suites (link-reveal: &quot;hosts bingo night on Tuesdays.&quot;)[
+&quot;...and everyone, please remember to clear out quickly after the show tonight, as the SpringHill Suites (link-reveal: &quot;hosts bingo night on Tuesdays and Fridays.&quot;)[
 	
 	You watch as (link-reveal: &quot;most of the other kids head up on stage.&quot;)[
 		
@@ -311,11 +313,11 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 ]
 ]
 
-&lt;!-- Works perfectly! --&gt;</tw-passagedata><tw-passagedata pid="20" name="Bhindaya 2a" tags="" position="24,914.5" size="100,100">You bring the note back to Bhindaya.
+&lt;!-- Works perfectly! --&gt;</tw-passagedata><tw-passagedata pid="20" name="Bhindaya 2a" tags="" position="24,914" size="100,100">You bring the note back to Bhindaya.
 
 &quot;He wrote me a note?&quot; She says. &quot;That&#39;s so cute. I have to go read it and then study. See you tomorrow!&quot;
 
-(link-goto: &quot;Go back to your room.&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="21" name="Test 2" tags="" position="457,1359.5" size="100,100">Your word is: (audio of word) &lt;!--balloonist--&gt;
+(link-goto: &quot;Go back to your room.&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="21" name="Test 2" tags="" position="457,1359" size="100,100">Your word is: (audio of word) &lt;!--balloonist--&gt;
 &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
 There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
 &lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
@@ -329,10 +331,10 @@ You don&#39;t want to lose on a technicality.
 
 &lt;script&gt;function myFunction() {
 	var x = document.getElementById(&quot;fname&quot;);
-	x.value = &quot;Judge Holly watches you&quot;;
+	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="22" name="Enter Word 2" tags="" position="459,1474.5" size="100,100">(set: $word2 to (prompt: &quot;Spell the word:&quot;, &quot;&quot;))&lt;!-- balloonist --&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="22" name="Enter Word 2" tags="" position="459,1474" size="100,100">(set: $word2 to (prompt: &quot;Spell the word:&quot;, &quot;&quot;))&lt;!-- balloonist --&gt;
 {(if: $word2 is &quot;balloonist&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
 ](else-if: $word1 is &quot;Ballonist&quot;)[
@@ -343,11 +345,214 @@ You don&#39;t want to lose on a technicality.
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
 ]}
 
-</tw-passagedata><tw-passagedata pid="23" name="Fail 2" tags="" position="342,1472.5" size="100,100">&quot;Oh number 169, you sweet summer child. Goodbye and good luck!&quot;
+</tw-passagedata><tw-passagedata pid="23" name="Fail 2" tags="" position="342,1472" size="100,100">&quot;Oh number 169, you sweet summer child. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
 (link-goto: &quot;Retry&quot;, &quot;Test 2&quot;)
-(link-goto: &quot;Restart&quot;, &quot;Welcome&quot;)</tw-passagedata><tw-passagedata pid="24" name="After Word 2" tags="" position="456,1598.5" size="100,100">You breathe a sigh of relief.
+(link-goto: &quot;Restart&quot;, &quot;Welcome&quot;)</tw-passagedata><tw-passagedata pid="24" name="After Word 2" tags="" position="456,1598" size="100,100">You breathe a sigh of relief.
 
-$bad</tw-passagedata></tw-storydata>
+(link-goto: &quot;Continue&quot;, &quot;Montage 1&quot;)</tw-passagedata><tw-passagedata pid="25" name="Montage 1" tags="" position="455,1714.5" size="100,100">Over the next few days, competition gets tighter. The difficulty of the words ramps up. Judge Holly seems to savor every crushed dream.
+
+On day three, you spell &lt;font color=&quot;red&quot;&gt;supercilious &lt;/font&gt;&lt;font color=&quot;red&quot;&gt;(mouseover: &quot;supercilious&quot;)[(so͞opərˈsilēəs, &lt;i&gt;adjective&lt;/i&gt;, behaving or looking as though one thinks one is superior to others.)]&lt;/font&gt; with ease.
+
+On day four, you stutter through &lt;font color=&quot;red&quot;&gt;celerity&lt;/font&gt; &lt;font color=&quot;red&quot;&gt;(mouseover: &quot;celerity&quot;)[(səˈlerədē, &lt;i&gt;noun&lt;/i&gt;, swiftness of movement.)]&lt;/font&gt;.
+
+On day five, you guess your way through &lt;font color=&quot;red&quot;&gt;unpropitious&lt;/font&gt;&lt;font color=&quot;red&quot;&gt;(mouseover: &quot;unpropitious&quot;)[(ənprəˈpiSHəs, &lt;i&gt;noun&lt;/i&gt;, (of a circumstance) not giving or indicating a good chance of success; unfavorable)]&lt;/font&gt;.
+
+You make it to the top 20. (link-goto: &quot;It&#39;s time to study hard.&quot;, &quot;Night 5&quot;)
+
+$bad
+</tw-passagedata><tw-passagedata pid="26" name="Night 5" tags="" position="455,1826.5" size="100,100">You&#39;re alone in your hotel room. Your parents are downstairs at bingo.
+
+(link-goto: &quot;Study&quot;, &quot;Study Guide 5&quot;)
+(link-goto: &quot;Talk a walk&quot;, &quot;Out Night 5&quot;)
+(link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)</tw-passagedata><tw-passagedata pid="27" name="Out Night 5" tags="" position="214,1824.5" size="100,100">You wander around the now empty-feeling halls of the hotel and down into the lobby. Standing at the vending machine are two girls you recognize from the bee, (link-reveal: &quot;Kaylee and Ayumi.&quot;)[
+
+To your surprise, Kaylee greets you. &quot;Hey $name, tough day, right? I&#39;m so glad there are other cool people still in this game.&quot;
+
+(link-reveal: &quot;Me?&quot;)[
+
+&quot;Duh,&quot; Kaylee says. &quot;Aren&#39;t you?&quot;
+]
+(link-reveal: &quot;Yeah, totally.&quot;)[
+
+	&quot;So we&#39;re going to go have some real fun,&quot; Kaylee says. &quot;Wanna come?&quot;
+	
+	Before you can answer, you hear more footsteps behind you. It&#39;s Aiden and another boy from the bee. &quot;Hi $name. Me and Rajesh were going to go check out the Museum of Literacy, (link-reveal: &quot;would you like to come?&quot;)[
+
+Kaylee and Ayumi start giggling. &quot;Museum of literacy? Is that even real?&quot; Ayumi says.
+
+&quot;Of course it is,&quot; says Rajesh. &quot;And it&#39;s really fun.&quot;
+
+&quot;Doubtful,&quot; Kaylee scoffs. &quot;Are you coming with us or not, $name?&quot;
+
+(link-goto: &quot;Go with Kaylee&quot;, &quot;Kaylee 1&quot;)
+(link-goto: &quot;Go with Aiden&quot;, &quot;Aiden 2&quot;)
+]
+]
+]</tw-passagedata><tw-passagedata pid="28" name="Study Guide 5" tags="" position="335,1828.5" size="100,100">Double-click this passage to edit it.
+
+(link-goto: &quot;Back&quot;, &quot;Night 5&quot;)</tw-passagedata><tw-passagedata pid="29" name="Morning 6" tags="" position="813,1846.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="30" name="Aiden Sabotage and other notes" tags="" position="737,1661.5" size="100,100">Aiden can spell out that one word that meant small space then comment that&#39;s his greatest fear and the last test will be locking him in a closet.
+
+interstice
+
+Katie can say that she relies on her phone for all her studying while you hang out with her, and you can steal her phone for the bad point.
+
+Winning with three bad points: You got the trophy, and does it matter who you had to step on to get here? You won a regional spelling bee in Bakersfield, the world is yours! Congratulations on being an accomplished little sociopath.
+
+Winning with one or two: You dabbled in bullying and sabotage, but in the end you buckled down and won the trophy (mostly) based on your own merits. Congratulations!
+
+Winning with 0 bad points: You studied hard and you did it all on your own. You&#39;re a literal angel, and your parents are so proud. You&#39;ve got national spelling bee written all over you, kid. Congratulations!
+
+</tw-passagedata><tw-passagedata pid="31" name="Kaylee 1" tags="" position="269,1944.5" size="100,100">Kaylee and Akumi both link arms with you as you head towards the exit.
+
+&quot;So glad you came with us,&quot; Kaylee says. &quot;Those guys are such nerds.&quot;
+
+&quot;Who goes to a museum for fun?&quot; Ayumi laughs.
+
+(link-goto: &quot;We&#39;re all in a spelling bee, though...&quot;, &quot;Kaylee 2&quot;)
+(link-goto: &quot;Totally, I hate nerds.&quot;, &quot;Kaylee 2&quot;)</tw-passagedata><tw-passagedata pid="32" name="Kaylee 2" tags="" position="268,2057.5" size="100,100">The sun sets as you walk down the mostly empty main road. You reach a liquor store named &quot;Tony&#39;s.&quot;
+
+&quot;Okay, we&#39;re here,&quot; Kaylee says.
+
+(link-reveal: &quot;Seriously?&quot;)[
+ 
+&quot;See that guy in front?&quot; Kaylee points.
+
+You squint your eyes and see a homeless man holding a cardboard sign outside the store.
+
+(link-reveal: &quot;Yeah...&quot;)[
+
+&quot;Go ask him to buy us a pint of vodka.&quot; Ayumi shoves some cash into your hand.
+
+(link-reveal: &quot;What!&quot;)[
+
+&quot;Come on, just do it, it&#39;s easy,&quot; Ayumi says.
+
+&quot;Or you can go meet up with those museum losers if you&#39;re too scared,&quot; Kaylee says. &quot;But I thought you were cool.&quot;
+
+(link-goto: &quot;Approach the man&quot;, &quot;Kaylee 3&quot;)
+(link-goto: &quot;Bail and catch up with Aiden&quot;, &quot;Aiden 2&quot;)
+]
+]
+]</tw-passagedata><tw-passagedata pid="33" name="Kaylee 3" tags="" position="268,2169.5" size="100,100">&quot;Hello sir,&quot; You say, approaching the man. &quot;May I please ask you a favor?&quot;
+
+The man peers at you then starts laughing. &quot;What the hell could I do for you, kid?&quot;
+
+(link-reveal: &quot;Would you please buy me a pint of vodka?&quot;)[
+
+&quot;What?&quot; The man barks. &quot;Is this a joke?&quot;
+
+&quot;Please sir, it&#39;s for my mom,&quot; You say. &quot;She&#39;s um, an alcoholic. And an amputee.&quot;
+
+&quot;You got enough cash for two of them?&quot; The man gestures to the money gripped in your hand.
+
+(link-reveal: &quot;I think so.&quot;)[
+
+&quot;Alright, ya little liar,&quot; The man says. &quot;Wait for me behind the store.&quot;
+
+(link-goto: &quot;Continue&quot;, &quot;Kaylee 4&quot;)
+]
+]</tw-passagedata><tw-passagedata pid="34" name="Kaylee 4" tags="" position="268,2287.5" size="100,100">&quot;You are seriously the most awesome person I have ever met, $name!&quot; Kaylee gushes, opening the pint. &quot;He definitely got us the cheap stuff, but it&#39;s okay.&quot;
+
+Kaylee takes a swig and makes a face. She and Ayumi giggle.
+
+&quot;Want some?&quot; Kaylee offers you the pint.
+
+(link-goto: &quot;Yes&quot;, &quot;Kaylee 5b&quot;) 
+(link-goto: &quot;No&quot;, &quot;Kaylee 5a&quot;)</tw-passagedata><tw-passagedata pid="35" name="Kaylee 5b" tags="" position="340,2399.5" size="100,100">The pint gets passed around a few times until you start feeling warm, sick, and happy all at once.
+
+(link-reveal: &quot;How are you going to manage to study tonight?&quot;)[
+
+&quot;Don&#39;t worry about me,&quot; Kaylee says, still giggling. &quot;I have a system. I have a spelling coach who, like, crunches the probabilities of which words will show up each day. It&#39;s based on what words have already been chosen, the past spelling bees, stuff like that.&quot;
+
+(link-reveal: &quot;Is that legal?&quot;)[
+
+Kaylee laughs and takes another sip. &quot;Ugh, this stuff is awful! But what were we saying... is it legal? I dunno, who cares? She sends the flashcards of the words to my phone and I just study like crazy in the mornings.&quot;
+
+(link-goto: &quot;Continue&quot;, &quot;Kaylee 6b&quot;)
+]
+]
+
+(set: $youDrank to true)</tw-passagedata><tw-passagedata pid="36" name="Kaylee 6b" tags="" position="339,2514.5" size="100,100">You start to feel sick and stop drinking. Your head is spinning, but Kaylee and Ayumi seem much drunker than you.
+
+(link-reveal: &quot;You lead the two girls back to the hotel&quot;)[
+
+Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin to stare. You try to hurry them into the elevator.
+
+&quot;Third floor,&quot; Kaylee mumbles.
+
+&quot;Don&#39;t leave me, Kaylee!&quot; Ayumi says, slumping her body into the elevator buttons.
+
+&quot;Stay with me!&quot; Kaylee yells. &quot;$name! Help us!&quot;
+
+(link-goto: &quot;Okay, okay, I&#39;m helping you.&quot;, &quot;Kaylee 7&quot;)
+]</tw-passagedata><tw-passagedata pid="37" name="Kaylee 7" tags="" position="262,2626.5" size="100,100">You lead Kaylee and Ayumi to the room and manage to get the keycard from Kaylee&#39;s limp fingers. Thankfully, there are no parents present.
+
+(link-reveal: &quot;Tuck them into bed&quot;)[
+
+&quot;You&#39;re the best, $name,&quot; Ayumi says, closing her eyes. &quot;I seriously love you.&quot;
+
+(link-reveal: &quot;Thank you.&quot;)[
+
+&quot;Will you get me a glass of water?&quot; Ayumi asks. &quot;Please, I&#39;ll get so sick without it.&quot;
+
+(link-goto: &quot;Get her water&quot;, &quot;Kaylee 8a&quot;)
+(link-goto: &quot;Refuse to get her water&quot;, &quot;Kaylee 8b&quot;)
+]
+]</tw-passagedata><tw-passagedata pid="38" name="Kaylee 8b" tags="" position="317,2738.5" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
+
+(link-goto: &quot;Take the phone&quot;, &quot;Kaylee 9b&quot;)
+(link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)
+
+(set: $bad to it + 1)
+(set: $meanToAyumi to true)</tw-passagedata><tw-passagedata pid="39" name="Kaylee 8a" tags="" position="207,2736.5" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
+
+(link-goto: &quot;Take the phone&quot;, &quot;Kaylee 9b&quot;)
+(link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)</tw-passagedata><tw-passagedata pid="40" name="Kaylee 9a" tags="" position="199,2854.5" size="100,100">You leave the phone where it is and head back to your room. There&#39;s still some time study.
+
+(link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)</tw-passagedata><tw-passagedata pid="41" name="Kaylee 9b" tags="" position="320,2856.5" size="100,100">You grab the phone and stick it in your pocket, glancing back at Kaylee and Ayumi in the bed together. They appear to be asleep.
+
+You leave and head back to your room. There&#39;s still time to study.
+
+(link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)
+
+(set: $bad to it + 1)
+(set: $meanToKaylee to true)</tw-passagedata><tw-passagedata pid="42" name="Aiden 2" tags="" position="535,1943.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="43" name="Night 5b" tags="" position="251,2970.5" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
+
+(link-goto: &quot;Study&quot;, &quot;Study Guide 5b&quot;)
+(link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)
+
+$bad</tw-passagedata><tw-passagedata pid="44" name="Study Guide 5b" tags="" position="166,3079.5" size="100,100">{(if: $youDrank is true)[You try to look at the guide, but your head starts to pound and the words make you dizzy and nauseous.]
+(else:)[&lt;!-- copy study guide here--&gt;]}
+
+(link-goto: &quot;Back&quot;, &quot;Night 5b&quot;)</tw-passagedata><tw-passagedata pid="45" name="Kaylee 5a" tags="" position="203,2401.5" size="100,100">You refuse the drink.
+
+Kaylee shrugs. &quot;More for me.&quot;
+
+(link-reveal: &quot;How are you going to manage to study tonight?&quot;)[
+
+&quot;Don&#39;t worry about me,&quot; Kaylee says, still giggling. &quot;I have a system. I have a spelling coach who, like, crunches the probabilities of which words will show up each day. It&#39;s based on what words have already been chosen, the past spelling bees, stuff like that.&quot;
+
+(link-reveal: &quot;Is that legal?&quot;)[
+
+Kaylee laughs and takes another sip. &quot;Ugh, this stuff is awful! But what were we saying... is it legal? I dunno, who cares? She sends the flashcards of the words to my phone and I just study like crazy in the mornings.&quot;
+
+(link-goto: &quot;Continue&quot;, &quot;Kaylee 6a&quot;)
+]
+]
+</tw-passagedata><tw-passagedata pid="46" name="Kaylee 6a" tags="" position="200,2510.5" size="100,100">Kaylee and Ayumi seem to be getting pretty tipsy.
+
+(link-reveal: &quot;You lead the two girls back to the hotel&quot;)[
+
+Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin to stare. You try to hurry them into the elevator.
+
+&quot;Third floor,&quot; Kaylee mumbles.
+
+&quot;Don&#39;t leave me, Kaylee!&quot; Ayumi says, slumping her body into the elevator buttons.
+
+&quot;Stay with me!&quot; Kaylee yells. &quot;$name! Help us!&quot;
+
+(link-goto: &quot;Okay, okay, I&#39;m helping you.&quot;, &quot;Kaylee 7&quot;)
+]</tw-passagedata></tw-storydata>
