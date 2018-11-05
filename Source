@@ -5,7 +5,11 @@
 
 
 
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
 
 
 
@@ -26,8 +30,8 @@ Oh, wow, okay... (link-goto:&quot;wax that mustache and try again?&quot;, &quot;
 (link-goto: &quot;Damnit, okay.&quot;, &quot;Welcome&quot;)
 (link-reveal: &quot;I&#39;m adopted...&quot;)[
 
-Oh, wow, um... I&#39;ll just go have a cigarette, (link-goto:&quot;and you can try again?&quot;, &quot;Welcome&quot;)]
-] (else:) [ Perfect. You&#39;re #169. (link-goto: &quot;Go get in line over there.&quot;, &quot;Line&quot;)
+Oh, wow, um... why don&#39;t we just forget we had this conversation, (link-goto:&quot;and you can try again?&quot;, &quot;Welcome&quot;)]
+] (else:) [ Perfect. You&#39;re #139. (link-goto: &quot;Go get in line over there.&quot;, &quot;Line&quot;)
 ]
 
 </tw-passagedata><tw-passagedata pid="2" name="Line" tags="" position="447,113" size="100,100">You hug your parents and go get into the long, swarming line of kids. You see the girl you met on the bus, Bhindaya, a ways up in line. She is talking to a cute boy next to her and playing with her hair.
@@ -36,10 +40,10 @@ Oh, wow, um... I&#39;ll just go have a cigarette, (link-goto:&quot;and you can t
 
 Bhindaya turns and waves at you, a huge smile on her face.
 
-(link-goto: &quot;Wave back.&quot;, &quot;Line2&quot;)
-(link-goto: &quot;Flip her off.&quot;, &quot;Line Optional&quot;)
+(link-goto: &quot;Wave back&quot;, &quot;Line2&quot;)
+(link-goto: &quot;Flip her off&quot;, &quot;Line Optional&quot;)
 ]
-(link-goto: &quot;Ignore.&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="451,337" size="100,100">&quot;Good evening everyone, and welcome to 16th annual Two-Shoes Spelling Bee hosted at the SpringHill Suites in lovely Bakersfield, California. We may not be the big leagues yet, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a cosmo at the hotel bar after the show.&quot;) [
+(link-goto: &quot;Ignore&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="451,337" size="100,100">&quot;Good evening everyone, and welcome to 16th annual Two-Shoes Spelling Bee hosted at the SpringHill Suites in lovely Bakersfield, California. We may not be the big leagues yet, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a cosmo at the hotel bar after the show.&quot;) [
 
 &quot;Everyone here can be proud of their munchkin tonight, because it takes discipline and perserverence to study the art of spelling in the age of distractions. Why my own son does nothing but sit around and play video games, and probably couldn&#39;t spell &quot;linguistics&quot; if his life depended on it. I mean, he still got into Stanford, (link-reveal: &quot;but he&#39;s an exceptional child.&quot;) [
 
@@ -72,7 +76,7 @@ Bhindaya turns and waves at you, a huge smile on her face.
 	&amp;nbsp &quot;A liaison between two parents occurred in the hotel bar after bedtime.&quot;
 	]
 
-(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="6" name="Fail 1" tags="" position="320,443" size="100,100">&quot;Oh number 169, that is so not right. Goodbye and good luck!&quot;
+(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="6" name="Fail 1" tags="" position="320,443" size="100,100">&quot;Oh #139, that is so not right. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
@@ -105,7 +109,7 @@ You don&#39;t want to lose on a technicality.
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="9" name="Rules" tags="" position="450,446" size="100,100">&quot;You waddle up to the podium and I announce your word. You can write it down on the podium for practice, ask me to repeat the word, or even ask me to use it (link-reveal: &quot;in a sentence if you&#39;d like.&quot;)[
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="9" name="Rules" tags="" position="450,446" size="100,100">&quot;You walk up to the podium and I announce your word. You can write it down on the podium for practice, ask me to repeat the word, or even ask me to use it (link-reveal: &quot;in a sentence if you&#39;d like.&quot;)[
 
 &quot;No cheating and no funny business of any kind. You have three minutes or you&#39;re out of the competition, and I mean immediately. No loitering on the podium after you&#39;re eliminated, no crying, and definitely no arguing parents after the fact. You can &lt;i&gt;try&lt;/i&gt; to persuade me with gifts. It probably won&#39;t work, (link-reveal: &quot;but I do like a good Pinot Grigio.&quot;)[
 
@@ -290,7 +294,7 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
 	]
 	
-(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="19" name="Morning 2" tags="" position="456,1244" size="100,100">It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
+(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="19" name="Morning 2" tags="" position="457,1246" size="100,100">It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
 
 &quot;...and everyone, please remember to clear out quickly after the show tonight, as the SpringHill Suites (link-reveal: &quot;hosts bingo night on Tuesdays and Fridays.&quot;)[
 	
@@ -345,14 +349,14 @@ You don&#39;t want to lose on a technicality.
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
 ]}
 
-</tw-passagedata><tw-passagedata pid="23" name="Fail 2" tags="" position="342,1472" size="100,100">&quot;Oh number 169, you sweet summer child. Goodbye and good luck!&quot;
+</tw-passagedata><tw-passagedata pid="23" name="Fail 2" tags="" position="342,1472" size="100,100">&quot;Oh #139, you sweet summer child. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
 (link-goto: &quot;Retry&quot;, &quot;Test 2&quot;)
 (link-goto: &quot;Restart&quot;, &quot;Welcome&quot;)</tw-passagedata><tw-passagedata pid="24" name="After Word 2" tags="" position="456,1598" size="100,100">You breathe a sigh of relief.
 
-(link-goto: &quot;Continue&quot;, &quot;Montage 1&quot;)</tw-passagedata><tw-passagedata pid="25" name="Montage 1" tags="" position="455,1714.5" size="100,100">Over the next few days, competition gets tighter. The difficulty of the words ramps up. Judge Holly seems to savor every crushed dream.
+(link-goto: &quot;Continue&quot;, &quot;Montage 1&quot;)</tw-passagedata><tw-passagedata pid="25" name="Montage 1" tags="" position="455,1714" size="100,100">Over the next few days, competition gets tighter. The difficulty of the words ramps up. Judge Holly seems to savor every crushed dream.
 
 On day three, you spell &lt;font color=&quot;red&quot;&gt;supercilious &lt;/font&gt;&lt;font color=&quot;red&quot;&gt;(mouseover: &quot;supercilious&quot;)[(so͞opərˈsilēəs, &lt;i&gt;adjective&lt;/i&gt;, behaving or looking as though one thinks one is superior to others.)]&lt;/font&gt; with ease.
 
@@ -363,11 +367,11 @@ On day five, you guess your way through &lt;font color=&quot;red&quot;&gt;unprop
 You make it to the top 20. (link-goto: &quot;It&#39;s time to study hard.&quot;, &quot;Night 5&quot;)
 
 $bad
-</tw-passagedata><tw-passagedata pid="26" name="Night 5" tags="" position="455,1826.5" size="100,100">You&#39;re alone in your hotel room. Your parents are downstairs at bingo.
+</tw-passagedata><tw-passagedata pid="26" name="Night 5" tags="" position="455,1826" size="100,100">You&#39;re alone in your hotel room. Your parents are downstairs at bingo.
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 5&quot;)
 (link-goto: &quot;Talk a walk&quot;, &quot;Out Night 5&quot;)
-(link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)</tw-passagedata><tw-passagedata pid="27" name="Out Night 5" tags="" position="214,1824.5" size="100,100">You wander around the now empty-feeling halls of the hotel and down into the lobby. Standing at the vending machine are two girls you recognize from the bee, (link-reveal: &quot;Kaylee and Ayumi.&quot;)[
+(link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)</tw-passagedata><tw-passagedata pid="27" name="Out Night 5" tags="" position="214,1824" size="100,100">You wander around the now empty-feeling halls of the hotel and down into the lobby. Standing at the vending machine are two girls you recognize from the bee, (link-reveal: &quot;Kaylee and Ayumi.&quot;)[
 
 To your surprise, Kaylee greets you. &quot;Hey $name, tough day, right? I&#39;m so glad there are other cool people still in this game.&quot;
 
@@ -391,9 +395,9 @@ Kaylee and Ayumi start giggling. &quot;Museum of literacy? Is that even real?&qu
 (link-goto: &quot;Go with Aiden&quot;, &quot;Aiden 2&quot;)
 ]
 ]
-]</tw-passagedata><tw-passagedata pid="28" name="Study Guide 5" tags="" position="335,1828.5" size="100,100">Double-click this passage to edit it.
+]</tw-passagedata><tw-passagedata pid="28" name="Study Guide 5" tags="" position="335,1828" size="100,100">Double-click this passage to edit it.
 
-(link-goto: &quot;Back&quot;, &quot;Night 5&quot;)</tw-passagedata><tw-passagedata pid="29" name="Morning 6" tags="" position="813,1846.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="30" name="Aiden Sabotage and other notes" tags="" position="737,1661.5" size="100,100">Aiden can spell out that one word that meant small space then comment that&#39;s his greatest fear and the last test will be locking him in a closet.
+(link-goto: &quot;Back&quot;, &quot;Night 5&quot;)</tw-passagedata><tw-passagedata pid="29" name="Morning 6" tags="" position="813,1846" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="30" name="Aiden Sabotage and other notes" tags="" position="737,1661" size="100,100">Aiden can spell out that one word that meant small space then comment that&#39;s his greatest fear and the last test will be locking him in a closet.
 
 interstice
 
@@ -405,14 +409,14 @@ Winning with one or two: You dabbled in bullying and sabotage, but in the end yo
 
 Winning with 0 bad points: You studied hard and you did it all on your own. You&#39;re a literal angel, and your parents are so proud. You&#39;ve got national spelling bee written all over you, kid. Congratulations!
 
-</tw-passagedata><tw-passagedata pid="31" name="Kaylee 1" tags="" position="269,1944.5" size="100,100">Kaylee and Akumi both link arms with you as you head towards the exit.
+</tw-passagedata><tw-passagedata pid="31" name="Kaylee 1" tags="" position="269,1944" size="100,100">Kaylee and Akumi both link arms with you as you head towards the exit.
 
 &quot;So glad you came with us,&quot; Kaylee says. &quot;Those guys are such nerds.&quot;
 
 &quot;Who goes to a museum for fun?&quot; Ayumi laughs.
 
 (link-goto: &quot;We&#39;re all in a spelling bee, though...&quot;, &quot;Kaylee 2&quot;)
-(link-goto: &quot;Totally, I hate nerds.&quot;, &quot;Kaylee 2&quot;)</tw-passagedata><tw-passagedata pid="32" name="Kaylee 2" tags="" position="268,2057.5" size="100,100">The sun sets as you walk down the mostly empty main road. You reach a liquor store named &quot;Tony&#39;s.&quot;
+(link-goto: &quot;Totally, I hate nerds.&quot;, &quot;Kaylee 2&quot;)</tw-passagedata><tw-passagedata pid="32" name="Kaylee 2" tags="" position="268,2057" size="100,100">The sun sets as you walk down the mostly empty main road. You reach a liquor store named &quot;Tony&#39;s.&quot;
 
 &quot;Okay, we&#39;re here,&quot; Kaylee says.
 
@@ -433,10 +437,10 @@ You squint your eyes and see a homeless man holding a cardboard sign outside the
 &quot;Or you can go meet up with those museum losers if you&#39;re too scared,&quot; Kaylee says. &quot;But I thought you were cool.&quot;
 
 (link-goto: &quot;Approach the man&quot;, &quot;Kaylee 3&quot;)
-(link-goto: &quot;Bail and catch up with Aiden&quot;, &quot;Aiden 2&quot;)
+(link-goto: &quot;Bail and catch up with Aiden&quot;, &quot;Aiden 3&quot;)
 ]
 ]
-]</tw-passagedata><tw-passagedata pid="33" name="Kaylee 3" tags="" position="268,2169.5" size="100,100">&quot;Hello sir,&quot; You say, approaching the man. &quot;May I please ask you a favor?&quot;
+]</tw-passagedata><tw-passagedata pid="33" name="Kaylee 3" tags="" position="268,2169" size="100,100">&quot;Hello sir,&quot; You say, approaching the man. &quot;May I please ask you a favor?&quot;
 
 The man peers at you then starts laughing. &quot;What the hell could I do for you, kid?&quot;
 
@@ -454,14 +458,14 @@ The man peers at you then starts laughing. &quot;What the hell could I do for yo
 
 (link-goto: &quot;Continue&quot;, &quot;Kaylee 4&quot;)
 ]
-]</tw-passagedata><tw-passagedata pid="34" name="Kaylee 4" tags="" position="268,2287.5" size="100,100">&quot;You are seriously the most awesome person I have ever met, $name!&quot; Kaylee gushes, opening the pint. &quot;He definitely got us the cheap stuff, but it&#39;s okay.&quot;
+]</tw-passagedata><tw-passagedata pid="34" name="Kaylee 4" tags="" position="268,2287" size="100,100">&quot;You are seriously the most awesome person I have ever met, $name!&quot; Kaylee gushes, opening the pint. &quot;He definitely got us the cheap stuff, but it&#39;s okay.&quot;
 
 Kaylee takes a swig and makes a face. She and Ayumi giggle.
 
 &quot;Want some?&quot; Kaylee offers you the pint.
 
 (link-goto: &quot;Yes&quot;, &quot;Kaylee 5b&quot;) 
-(link-goto: &quot;No&quot;, &quot;Kaylee 5a&quot;)</tw-passagedata><tw-passagedata pid="35" name="Kaylee 5b" tags="" position="340,2399.5" size="100,100">The pint gets passed around a few times until you start feeling warm, sick, and happy all at once.
+(link-goto: &quot;No&quot;, &quot;Kaylee 5a&quot;)</tw-passagedata><tw-passagedata pid="35" name="Kaylee 5b" tags="" position="340,2399" size="100,100">The pint gets passed around a few times until you start feeling warm, sick, and happy all at once.
 
 (link-reveal: &quot;How are you going to manage to study tonight?&quot;)[
 
@@ -475,7 +479,7 @@ Kaylee laughs and takes another sip. &quot;Ugh, this stuff is awful! But what we
 ]
 ]
 
-(set: $youDrank to true)</tw-passagedata><tw-passagedata pid="36" name="Kaylee 6b" tags="" position="339,2514.5" size="100,100">You start to feel sick and stop drinking. Your head is spinning, but Kaylee and Ayumi seem much drunker than you.
+(set: $youDrank to true)</tw-passagedata><tw-passagedata pid="36" name="Kaylee 6b" tags="" position="339,2514" size="100,100">You start to feel sick and stop drinking. Your head is spinning, but Kaylee and Ayumi seem much drunker than you.
 
 (link-reveal: &quot;You lead the two girls back to the hotel&quot;)[
 
@@ -488,7 +492,7 @@ Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin
 &quot;Stay with me!&quot; Kaylee yells. &quot;$name! Help us!&quot;
 
 (link-goto: &quot;Okay, okay, I&#39;m helping you.&quot;, &quot;Kaylee 7&quot;)
-]</tw-passagedata><tw-passagedata pid="37" name="Kaylee 7" tags="" position="262,2626.5" size="100,100">You lead Kaylee and Ayumi to the room and manage to get the keycard from Kaylee&#39;s limp fingers. Thankfully, there are no parents present.
+]</tw-passagedata><tw-passagedata pid="37" name="Kaylee 7" tags="" position="262,2626" size="100,100">You lead Kaylee and Ayumi to the room and manage to get the keycard from Kaylee&#39;s limp fingers. Thankfully, there are no parents present.
 
 (link-reveal: &quot;Tuck them into bed&quot;)[
 
@@ -501,33 +505,41 @@ Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin
 (link-goto: &quot;Get her water&quot;, &quot;Kaylee 8a&quot;)
 (link-goto: &quot;Refuse to get her water&quot;, &quot;Kaylee 8b&quot;)
 ]
-]</tw-passagedata><tw-passagedata pid="38" name="Kaylee 8b" tags="" position="317,2738.5" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
+]</tw-passagedata><tw-passagedata pid="38" name="Kaylee 8b" tags="" position="317,2738" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
 
 (link-goto: &quot;Take the phone&quot;, &quot;Kaylee 9b&quot;)
 (link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)
 
 (set: $bad to it + 1)
-(set: $meanToAyumi to true)</tw-passagedata><tw-passagedata pid="39" name="Kaylee 8a" tags="" position="207,2736.5" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
+(set: $meanToAyumi to true)</tw-passagedata><tw-passagedata pid="39" name="Kaylee 8a" tags="" position="207,2736" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
 
 (link-goto: &quot;Take the phone&quot;, &quot;Kaylee 9b&quot;)
-(link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)</tw-passagedata><tw-passagedata pid="40" name="Kaylee 9a" tags="" position="199,2854.5" size="100,100">You leave the phone where it is and head back to your room. There&#39;s still some time study.
+(link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)</tw-passagedata><tw-passagedata pid="40" name="Kaylee 9a" tags="" position="199,2854" size="100,100">You leave the phone where it is and head back to your room. There&#39;s still some time study.
 
-(link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)</tw-passagedata><tw-passagedata pid="41" name="Kaylee 9b" tags="" position="320,2856.5" size="100,100">You grab the phone and stick it in your pocket, glancing back at Kaylee and Ayumi in the bed together. They appear to be asleep.
+(link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)</tw-passagedata><tw-passagedata pid="41" name="Kaylee 9b" tags="" position="320,2856" size="100,100">You grab the phone and stick it in your pocket, glancing back at Kaylee and Ayumi in the bed together. They appear to be asleep.
 
 You leave and head back to your room. There&#39;s still time to study.
 
 (link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)
 
 (set: $bad to it + 1)
-(set: $meanToKaylee to true)</tw-passagedata><tw-passagedata pid="42" name="Aiden 2" tags="" position="535,1943.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="43" name="Night 5b" tags="" position="251,2970.5" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
+(set: $meanToKaylee to true)</tw-passagedata><tw-passagedata pid="42" name="Aiden 2" tags="" position="535,1943" size="100,100">The three of you link arms and head towards the museum. &quot;I&#39;m so happy you joined us,&quot; Aiden says. &quot;Kaylee is not a very nice person.&quot;
+
+&quot;She called me a taped-eyeglasses wear,&quot; Rajesh says. &quot;I don&#39;t get it.&quot;
+
+You approach the museum. It&#39;s a quaint historical house with a wooden sign out front reading &quot;Museum of Literacy.&quot;
+
+(link-goto: &quot;Enter&quot;, &quot;Aiden 3&quot;)
+(link-goto: &quot;Bail and catch up with Kaylee and Ayumi&quot;, &quot;Kaylee 1&quot;)
+</tw-passagedata><tw-passagedata pid="43" name="Night 5b" tags="" position="251,2970" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 5b&quot;)
 (link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)
 
-$bad</tw-passagedata><tw-passagedata pid="44" name="Study Guide 5b" tags="" position="166,3079.5" size="100,100">{(if: $youDrank is true)[You try to look at the guide, but your head starts to pound and the words make you dizzy and nauseous.]
+$bad</tw-passagedata><tw-passagedata pid="44" name="Study Guide 5b" tags="" position="166,3079" size="100,100">{(if: $youDrank is true)[You try to look at the guide, but your head starts to pound and the words make you dizzy and nauseous.]
 (else:)[&lt;!-- copy study guide here--&gt;]}
 
-(link-goto: &quot;Back&quot;, &quot;Night 5b&quot;)</tw-passagedata><tw-passagedata pid="45" name="Kaylee 5a" tags="" position="203,2401.5" size="100,100">You refuse the drink.
+(link-goto: &quot;Back&quot;, &quot;Night 5b&quot;)</tw-passagedata><tw-passagedata pid="45" name="Kaylee 5a" tags="" position="203,2401" size="100,100">You refuse the drink.
 
 Kaylee shrugs. &quot;More for me.&quot;
 
@@ -542,7 +554,7 @@ Kaylee laughs and takes another sip. &quot;Ugh, this stuff is awful! But what we
 (link-goto: &quot;Continue&quot;, &quot;Kaylee 6a&quot;)
 ]
 ]
-</tw-passagedata><tw-passagedata pid="46" name="Kaylee 6a" tags="" position="200,2510.5" size="100,100">Kaylee and Ayumi seem to be getting pretty tipsy.
+</tw-passagedata><tw-passagedata pid="46" name="Kaylee 6a" tags="" position="200,2510" size="100,100">Kaylee and Ayumi seem to be getting pretty tipsy.
 
 (link-reveal: &quot;You lead the two girls back to the hotel&quot;)[
 
@@ -555,4 +567,63 @@ Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin
 &quot;Stay with me!&quot; Kaylee yells. &quot;$name! Help us!&quot;
 
 (link-goto: &quot;Okay, okay, I&#39;m helping you.&quot;, &quot;Kaylee 7&quot;)
-]</tw-passagedata></tw-storydata>
+]</tw-passagedata><tw-passagedata pid="47" name="Aiden 3" tags="" position="534,2053" size="100,100">You enter the museum. An elderly woman wearing an assortment of brooches greets you. &quot;Welcome to the Museum of Literacy, children. I was just about to close up for the night, but I must offer a quick tour to the bright-eyed young scholars who went to a museum of their own volition!&quot;
+
+(link-goto: &quot;Continue&quot;, &quot;Aiden 4&quot;)
+
+</tw-passagedata><tw-passagedata pid="48" name="Aiden 4" tags="" position="538,2165" size="100,100">The woman leads you down the corrider. She gestures to a photograph of (link-reveal: &quot;two stone tablets.&quot;)[
+
+&quot;The Kish tablet is a limestone tablet found at Tell al-Uhaymir, Babil Governorate, Iraq, the cite of the ancient Sumerian city of Kish. The writing on the tablet is pictographic, and represents a transitional stage between proto-writing and the emergence of partly syllabic writing of the cuneiform script proper. The tablet is dated to 3500 BC.&quot;
+
+(link-goto: &quot;Continue&quot;, &quot;Aiden 5&quot;)
+]
+
+&lt;!-- Add in reveal definitions for pictographic and syllabic --&gt;</tw-passagedata><tw-passagedata pid="49" name="Aiden 5" tags="" position="534,2278" size="100,100">&quot;The first books were produced in first-century BC in Rome. Books were produced on wax-coated wooden tablets, then scrolls of papyrus, which was eventually replaced by parchment. Some notable early Roman works included the poet Horace&#39;s (link-reveal: &quot;three books of Odes.&quot;)[
+
+&quot;Here, I always give out these cards containing passages from Horace&#39;s works as a souvenier for all museum-visitors, to remind of us of how far we&#39;ve come!&quot; She extends a small laminated card to you.
+
+(link-reveal: &quot;Take the card&quot;)[
+(set: $youHaveCard to true)
+You inspect the card. It reads: &quot;Poverty urges us to do and suffer anything that we may escape from it, and so leads us away from virtue.&quot; You pocket the card.
+]
+(link-goto: &quot;Continue&quot;, &quot;Aiden 6&quot;)
+]
+</tw-passagedata><tw-passagedata pid="50" name="Aiden 6" tags="" position="536,2389" size="100,100">&quot;The printing press was invented by German goldsmith Johannes Gutenberg in 1439. The press allowed for more widespread distribution of texts. Where would we even be today (link-reveal: &quot;if it weren&#39;t for Mr. Gutenberg?&quot;)[
+
+&quot;The first published work in the U.S. was &#39;The Power of Sympathy: or, The Triumph of Nature written by William Hill Brown in 1789. Have any of you read that one in class?&quot; 
+
+(link-goto: &quot;Nope.&quot;, &quot;Aiden 7&quot;)]
+</tw-passagedata><tw-passagedata pid="51" name="Aiden 7" tags="" position="534,2502" size="100,100">She laughs. &quot;You aren&#39;t missing anything. In those times, literacy rates were quite low. In the 1920s literacy reached 70% in parts of the U.S, and by the 1940s (link-reveal: &quot;40% of Americans read literature!&quot;)[
+
+&quot;Some pessimists may say &#39;people don&#39;t read anymore.&#39; That&#39;s just ridiculous. People read so much, we&#39;ve invented new devices to read on! We still have print books going strong, we read on our e-readers, we read the newspaper on our phones, we read texts to eachother all day. (link-reveal: &quot;Can you imagine life without reading?&quot;)[
+
+&quot;I believe kids like you are proof of our bright future. Thank you for visiting the Museum of Literacy, and please tell your friends!&quot;
+
+(link-goto: &quot;Continue&quot;, &quot;Aiden 8&quot;)
+]
+]</tw-passagedata><tw-passagedata pid="52" name="Aiden 8" tags="" position="534,2625" size="100,100">&quot;That was fun,&quot; Aiden says as the three of you head back to a hotel. You walk past a liquor store called &quot;Tony&#39;s.&quot;
+
+&quot;Wait, let me buy a soda from here,&quot; Rajesh says.
+
+(link-reveal: &quot;You wait outside the store.&quot;)[
+
+A homeless man sits on the curb by the liquor store. &quot;Excuse me, could you please spare any change?&quot; He asks you.
+
+(link-reveal: &quot;Give him change&quot;)[
+
+&quot;Thanks, youngster.&quot; He smiles at you.
+
+(if: $youHaveCard is true)[(link-reveal: &quot;Give him the Horace card&quot;)[
+
+The man takes the card from your hand and reads it. &quot;What the hell is this, you little shit? I&#39;m going to kill you!&quot;
+
+(link-reveal: &quot;Ahhh!&quot;)[
+
+You run back to your hotel and full speed.]]]]]
+
+(link-goto: &quot;Continue&quot;, &quot;Night 5a&quot;)</tw-passagedata><tw-passagedata pid="53" name="Night 5a" tags="" position="528,2753" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
+
+(link-goto: &quot;Study&quot;, &quot;Study Guide 5&quot;)
+(link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)
+
+$bad</tw-passagedata></tw-storydata>
