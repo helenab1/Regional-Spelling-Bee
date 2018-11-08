@@ -1,10 +1,22 @@
 <tw-storydata name="Spelling Bee" startnode="53" creator="Twine" creator-version="2.2.1" ifid="4F7359CD-B148-4651-BB0C-DBDD6539A0F2" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
-font-family: Helvetica, Arial, sans-serif;
-font-size: 16px;
-margin-top: 100px;
-background-color: grey;
-font-weight: 550;
+  
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+@font-face {
+    font-family: 'pr_number_3medium';
+    src: url('prnumber3-webfont.woff2') format('woff2'),
+         url('prnumber3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 
@@ -18,6 +30,8 @@ font-weight: 550;
 		}
 	};
 };
+
+
 
 
 
@@ -38,7 +52,11 @@ Bhindaya turns and waves at you, a huge smile on her face.
 (link-goto: &quot;Wave back&quot;, &quot;Line2&quot;)
 (link-goto: &quot;Flip her off&quot;, &quot;Line Optional&quot;)
 ]
-(link-goto: &quot;Ignore&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="451,337" size="100,100">&quot;Good evening everyone, and welcome to 16th annual Two-Shoes Spelling Bee hosted at the SpringHill Suites in lovely Bakersfield, California. We may not be the big leagues yet, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a cosmo at the hotel bar after the show.&quot;) [
+(link-goto: &quot;Ignore&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="3" name="Intro" tags="" position="451,337" size="100,100">&lt;!doctype html&gt;
+&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;/html&gt;
+
+&quot;Good evening everyone, and welcome to 16th annual Two-Shoes Spelling Bee hosted at the SpringHill Suites in lovely Bakersfield, California. We may not be the big leagues yet, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a cosmo at the hotel bar after the show.&quot;) [
 
 &quot;Everyone here can be proud of their munchkin tonight, because it takes discipline and perserverence to study the art of spelling in the age of distractions. Why my own son does nothing but sit around and play video games, and probably couldn&#39;t spell &quot;linguistics&quot; if his life depended on it. I mean, he still got into Stanford, (link-reveal: &quot;but he&#39;s an exceptional child.&quot;) [
 
@@ -71,7 +89,11 @@ Bhindaya turns and waves at you, a huge smile on her face.
 	&amp;nbsp &quot;A liaison between two parents occurred in the hotel bar after bedtime.&quot;
 	]
 
-(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="6" name="Fail 1" tags="" position="320,443" size="100,100">&quot;Oh #139, that is so not right. Goodbye and good luck!&quot;
+(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="6" name="Fail 1" tags="" position="320,443" size="100,100">&lt;!doctype html&gt;
+&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;/html&gt;
+
+&quot;Oh #139, that is so not right. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
@@ -90,11 +112,19 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="8" name="Rules" tags="" position="450,446" size="100,100">&quot;You walk up to the podium and I announce your word. You can write it down on the podium for practice, ask me to repeat the word, or even ask me to use it (link-reveal: &quot;in a sentence if you&#39;d like.&quot;)[
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="8" name="Rules" tags="" position="450,446" size="100,100">&lt;!doctype html&gt;
+&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;/html&gt;
+
+&quot;You walk up to the podium and I announce your word. You can write it down on the podium for practice, ask me to repeat the word, or even ask me to use it (link-reveal: &quot;in a sentence if you&#39;d like.&quot;)[
 
 &quot;No cheating and no funny business of any kind. You have three minutes or you&#39;re out of the competition, and I mean immediately. No loitering on the podium after you&#39;re eliminated, no crying, and definitely no arguing parents after the fact. You can &lt;i&gt;try&lt;/i&gt; to persuade me with gifts. It probably won&#39;t work, (link-reveal: &quot;but I do like a good Pinot Grigio.&quot;)[
 
-&quot;Ready? (link-goto: &quot;Let&#39;s begin!&quot;, &quot;Test 1&quot;)]]</tw-passagedata><tw-passagedata pid="9" name="After Word 1" tags="" position="457,556" size="100,100">You watch the rest of the kids go up to the podium. Only a few need to be escorted off the stage in tears.
+&quot;Ready? (link-goto: &quot;Let&#39;s begin!&quot;, &quot;Test 1&quot;)]]</tw-passagedata><tw-passagedata pid="9" name="After Word 1" tags="" position="457,556" size="100,100">&lt;!doctype html&gt;
+&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;/html&gt;
+
+You watch the rest of the kids go up to the podium. Only a few need to be escorted off the stage in tears.
 
 Bhindaya goes up, beaming confidence. She spells her word correctly.
 
@@ -275,7 +305,11 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
 	]
 	
-(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="18" name="Morning 2" tags="" position="457,1245" size="100,100">It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
+(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="18" name="Morning 2" tags="" position="457,1245" size="100,100">&lt;!doctype html&gt;
+&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;/html&gt;
+
+It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
 
 &quot;...and everyone, please remember to clear out quickly after the show tonight, as the SpringHill Suites (link-reveal: &quot;hosts bingo night on Tuesdays and Fridays.&quot;)[
 	
@@ -318,7 +352,11 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 &lt;/body&gt;
 &lt;/html&gt;</tw-passagedata><tw-passagedata pid="21" name="Enter Word 2a" tags="" position="459,1474" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 2b&quot;)</tw-passagedata><tw-passagedata pid="22" name="Fail 2" tags="" position="342,1472" size="100,100">&quot;Oh #139, you sweet summer child. Goodbye and good luck!&quot;
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 2b&quot;)</tw-passagedata><tw-passagedata pid="22" name="Fail 2" tags="" position="342,1472" size="100,100">&lt;!doctype html&gt;
+&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;/html&gt;
+
+&quot;Oh #139, you sweet summer child. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
@@ -619,7 +657,7 @@ Oh, wow, um... why don&#39;t we just forget we had this conversation, (link-goto
 ]
 </tw-passagedata><tw-passagedata pid="57" name="Enter Word 1a" tags="" position="682,444" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 1b&quot;)</tw-passagedata><tw-passagedata pid="58" name="Enter Word 1b" tags="" position="797,443.5" size="100,100">{(if: $word1 is &quot;impeccable&quot;)[
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 1b&quot;)</tw-passagedata><tw-passagedata pid="58" name="Enter Word 1b" tags="" position="797,443" size="100,100">{(if: $word1 is &quot;impeccable&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 1&quot;)
@@ -636,4 +674,5 @@ Hmm, you look a bit old for your age.
 (link-reveal: &quot;I swear.&quot;)[
 
 Perfect. You&#39;re #139. (link-goto: &quot;Go get in line over there.&quot;, &quot;Line&quot;)]
-]</tw-passagedata></tw-storydata>
+]</tw-passagedata><tw-passagedata pid="61" name="font" tags="" position="57,1561" size="100,100"> font: medium &quot;Bahncroft&quot;, Times, serif;
+ font-size: 1.2em;</tw-passagedata></tw-storydata>
