@@ -50,7 +50,9 @@ tw-link:hover, .enchantment-link:hover {
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 
 
@@ -103,7 +105,7 @@ Bhindaya turns and waves at you, a huge smile on her face.
 	&amp;nbsp &quot;A liaison between two parents occurred in the hotel bar after bedtime.&quot;
 	]
 
-(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="5" name="Fail 1" tags="" position="320,443" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot;&gt;
+(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="5" name="Fail 1" tags="" position="320,443" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 &quot;Oh #139, that is so not right. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
@@ -148,7 +150,7 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&amp;nbsp pout
 	&amp;nbsp &lt;i&gt;verb&lt;/i&gt;
 	&amp;nbsp push one&#39;s lips or one&#39;s bottom lip forward as an expression of petulant annoyance or in order to make oneself look sexually attractive.
-	&amp;nbsp &quot;The child pouted when her parents forgot to bring her a doggy bag.&quot;
+	&amp;nbsp &quot;The child pouted when her parents forgot to bring her home a doggy bag.&quot;
 	]
 (link-reveal: &quot;newlywed&quot;)[
 	&amp;nbsp n(y)o͞olēˌwed
@@ -355,7 +357,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 &lt;/body&gt;
 &lt;/html&gt;</tw-passagedata><tw-passagedata pid="20" name="Enter Word 2.1" tags="" position="459,1474" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 2.2&quot;)</tw-passagedata><tw-passagedata pid="21" name="Fail 2" tags="" position="342,1472" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot;&gt;
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 2.2&quot;)</tw-passagedata><tw-passagedata pid="21" name="Fail 2" tags="" position="342,1472" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 &quot;Oh #139, you sweet summer child. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
@@ -706,11 +708,11 @@ You run back to your hotel and full speed.]]]]]
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 5a&quot;)
 (link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)
-</tw-passagedata><tw-passagedata pid="52" name="Welcome 1" tags="" position="319,1" size="100,100">Welcome to the 16th Annual Two-Shoes Regional Spelling Bee. Please enter your name. 
+</tw-passagedata><tw-passagedata pid="52" name="Welcome 1" tags="" position="200,0" size="100,100">Welcome to the 16th Annual Two-Shoes Regional Spelling Bee. Please enter your name. 
 
-&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;only when your name appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $name to textbox1)$name]
+&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;only when your name appears here&lt;/u&gt; (type enter when done typing).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $name to textbox1)$name]
 
-(live: 5s)[(link-goto: &quot;Submit&quot;, &quot;Welcome 2 alt&quot;)(stop:)]
+(live: 5s)[(link-goto: &quot;Submit&quot;, &quot;Welcome Error Check&quot;)(stop:)]
 
 </tw-passagedata><tw-passagedata pid="53" name="Enter Word 1.1" tags="" position="682,444" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
 
@@ -722,7 +724,7 @@ You run back to your hotel and full speed.]]]]]
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
-]}</tw-passagedata><tw-passagedata pid="56" name="Welcome 2 alt" tags="" position="447,2" size="100,100">You must be between the ages of 8 to 15 to enter the spelling bee. Are you within the proper age limit for this bee?
+]}</tw-passagedata><tw-passagedata pid="56" name="Welcome 2" tags="" position="447,3" size="100,100">You must be between the ages of 8 to 15 to enter the spelling bee. Are you within the proper age limit for this bee?
 
 (link-reveal: &quot;Yes.&quot;)[
 
@@ -821,9 +823,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 &lt;p&gt;You have been eliminated from the Two-Shoes Annual Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
 (link-goto: &quot;Retry&quot;, &quot;Test 6&quot;)
-(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)</tw-passagedata><tw-passagedata pid="63" name="After Word 6" tags="" position="807,2429" size="100,100">(link-reveal: &quot;You breathe a sigh of relief&quot;)[
-
-Aiden is called to stage.
+(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)</tw-passagedata><tw-passagedata pid="63" name="After Word 6" tags="" position="807,2429" size="100,100">Aiden is called to stage.
 
 &quot;Your word is claustrophobia,&quot; (link-reveal: &quot;Judge Holly says.&quot;)[
 
@@ -837,10 +837,10 @@ The crowd cheers.
 ]
 
 
-]</tw-passagedata><tw-passagedata pid="64" name="Aiden 9" tags="" position="802,2546" size="100,100">&quot;I&#39;m so happy it&#39;s me and you, $name,&quot; Aiden says. {(if: $meanToBhindaya is true)[&quot;I still wonder what Bhindaya is up to now...so, want to hang out? Or are you just going to study?&quot;&quot;](else-if: $meanToBhindaya is false)[&quot;I wouldn&#39;t want to have to compete against my girlfriend Bhindaya for the title. So, want to hang out? Or are you just going to study?&quot;&quot;]}
+</tw-passagedata><tw-passagedata pid="64" name="Aiden 9" tags="" position="802,2546" size="100,100">&quot;I&#39;m so happy it&#39;s me and you, $name,&quot; Aiden says. {(if: $meanToBhindaya is true)[&quot;I still wonder what Bhindaya is up to now...so, want to hang out? Or are you just going to study?&quot;&quot;](else-if: $meanToBhindaya is false)[&quot;I wouldn&#39;t want to have to compete against my girlfriend Bhindaya for the title. So, want to hang out? Or are you just going to study?&quot;]}
 
 (link-goto: &quot;Hang out&quot;, &quot;Aiden 10&quot;)
-(link-goto: &quot;Study&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="65" name="Study Guide 6" tags="" position="685,2545.5" size="100,100">(link-reveal: &quot;camaraderie&quot;)[
+(link-goto: &quot;Study&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="65" name="Study Guide 6" tags="" position="1104,2547" size="100,100">(link-reveal: &quot;camaraderie&quot;)[
 	&amp;nbsp kaməˈrädərē
 	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
 	&amp;nbsp mutual trust and friendship among people who spend a lot of time together.
@@ -889,10 +889,10 @@ The crowd cheers.
 	&amp;nbsp The phlegmatic child showed no emotion as he was escorted off the stage.
 ]
 
-(link-goto: &quot;Back&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="66" name="Night 6" tags="" position="950,2546.5" size="100,100">You&#39;re alone in your hotel room. Your parents are here, watching you not study.
+(link-goto: &quot;Back&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="66" name="Night 6" tags="" position="950,2546" size="100,100">You&#39;re alone in your hotel room. Your parents are here, watching you not study.
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 6&quot;)
-(link-goto: &quot;Sleep&quot;, &quot;Morning 7&quot;)</tw-passagedata><tw-passagedata pid="67" name="Aiden 10" tags="" position="804,2676.5" size="100,100">&quot;I can&#39;t go back to my room yet, I&#39;m just so nervous and my parents will be freaking out wanting me to win this,&quot; Aiden says as the two of you walk together. 
+(link-goto: &quot;Sleep&quot;, &quot;Morning 7&quot;)</tw-passagedata><tw-passagedata pid="67" name="Aiden 10" tags="" position="804,2676" size="100,100">&quot;I can&#39;t go back to my room yet, I&#39;m just so nervous and my parents will be freaking out wanting me to win this,&quot; Aiden says as the two of you walk together. 
 
 (link-reveal: &quot;Same.&quot;)[
 
@@ -902,23 +902,78 @@ The crowd cheers.
 
 (link-goto: &quot;Fuck over Aiden&quot;, &quot;Aiden 11b&quot;)
 (link-goto: &quot;Don&#39;t fuck over Aiden&quot;, &quot;Aiden 11a&quot;)
-]</tw-passagedata><tw-passagedata pid="68" name="Aiden 11a" tags="" position="749,2804.5" size="100,100">You and Aiden go outside to sit and talk. It&#39;s a beautiful, sunny day.
+]</tw-passagedata><tw-passagedata pid="68" name="Aiden 11a" tags="" position="762,2804" size="100,100">You and Aiden go outside to sit and talk. It&#39;s a beautiful, sunny day.
 
 &quot;This is more like it,&quot; Aiden looks up at the sky. &quot;That&#39;s pretty embarrassing, what I just admitted to you. So $name, what are you most afraid of?&quot;
 
-&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;You are most afraid of...&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $fear to textbox1)$fear]
+&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;You are most afraid of...(type enter when done)&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $fear to textbox1)$fear]
 
-(link-goto: &quot;Answer&quot;, &quot;Aiden 11a.1&quot;)
-</tw-passagedata><tw-passagedata pid="69" name="Aiden 11a.1" tags="" position="751,2924" size="100,100">&quot;That&#39;s not so weird,&quot; Aiden says. &quot;Here&#39;s another question, what do you think the most beautiful word in the English language is?&quot;
+(link-goto: &quot;Answer&quot;, &quot;Fear Error Check&quot;)
+</tw-passagedata><tw-passagedata pid="69" name="Aiden 11a.1" tags="" position="759,3030" size="100,100">&quot;That&#39;s not so weird,&quot; Aiden says. &quot;Here&#39;s another question, what do you think the most beautiful word in the English language is?&quot;
 
 (link-reveal: &quot;Hmm...&quot;)[
 
-&quot;It&#39;s &#39;scherenschnitte,&#39;&quot; Aiden laughs. &quot;It&#39;s the word that got Kaylee eliminated from the bee.&quot;
+&quot;It&#39;s &#39;scherenschnitte,&#39;&quot; Aiden laughs. &quot;Because it got Kaylee eliminated from the bee.&quot;
 
 (link-reveal: &quot;Nice.&quot;)[
 
-&quot;Anyways, this has been chill. If I don&#39;t get back my parents will kill me,&quot; Aiden says. &quot;Good luck to you!&quot;
+&quot;Anyways, this has been chill. If I don&#39;t get back and study my parents will kill me,&quot; Aiden says. &quot;Good luck to you!&quot;
 
 (link-goto: &quot;Go to your room&quot;, &quot;Night 6&quot;)
 ]
-]</tw-passagedata><tw-passagedata pid="70" name="Aiden 11b" tags="" position="879,2806.5" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+]</tw-passagedata><tw-passagedata pid="70" name="Aiden 11b" tags="" position="879,2806" size="100,100">(link-reveal: &quot;Let&#39;s go outside. But first I need to grab something from my room.&quot;)[
+
+&quot;Sure,&quot; Aiden says. &quot;That&#39;s pretty embarrassing, what I just admitted to you. So $name, what are you most afraid of?&quot;
+
+&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;You are most afraid of...(type enter when done)&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $fear to textbox1)$fear]
+
+(link-goto: &quot;Answer&quot;, &quot;Fear Error Check b&quot;)
+]</tw-passagedata><tw-passagedata pid="71" name="Testing" tags="" position="1495,2794" size="100,100">(set: $fear to &quot;bugs&quot;)
+$fear
+(set: $zero to &quot;bug&quot;)
+$zero
+
+(set: $count to (count: &quot;Though&quot;, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+
+$count
+
+(if: $count &lt; 0)[test]</tw-passagedata><tw-passagedata pid="72" name="Welcome 1 Test" tags="" position="1353,2791" size="100,100">Welcome to the 16th Annual Two-Shoes Regional Spelling Bee. Please enter your name. 
+
+&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;TEST&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $name to textbox1)$name]
+
+(link-goto: &quot;Submit&quot;, &quot;Welcome 2 Test&quot;)
+
+</tw-passagedata><tw-passagedata pid="73" name="Welcome 2 Test" tags="" position="1349,2912" size="100,100">(set: $count to (count: $name, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+(if: $count &lt; 1)[Invalid name. Please try again.]</tw-passagedata><tw-passagedata pid="74" name="Welcome Error Check" tags="" position="330,1" size="100,100">(set: $count to (count: $name, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+(if: $count &lt; 1 or $count &gt; 10)[Invalid name. Please try again. (Name must contain at least one lowercase letter and cannot be more than 10 characters.)
+
+(link-goto: &quot;Retry&quot;, &quot;Welcome 1&quot;)]
+(if: $count &gt;= 1 and $count &lt;= 10)[(go-to: &quot;Welcome 2&quot;)]
+
+</tw-passagedata><tw-passagedata pid="75" name="Fear Error Check" tags="" position="760,2919" size="100,100">(set: $count2 to (count: $fear, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+(if: $count2 &lt; 1 or $count2 &gt;= 20)[Invalid input. (Must contain at least one lowercase letter and be less than 20 characters.)
+
+(link-goto: &quot;Retry&quot;, &quot;Aiden 11a&quot;)
+(link-goto: &quot;Continue anyways&quot;, &quot;Aiden 11a.1&quot;)]
+(if: $count2 &gt;= 1 and $count2 &lt; 20)[(go-to: &quot;Aiden 11a.1&quot;)]
+&lt;!-- Error check for when you do the trophies: If it&#39;s over 20 characters or less than 1, display message that doesn&#39;t include getting over your own fear. Will need to use count of bad points and bools to go to good ending or bad ending. --&gt;</tw-passagedata><tw-passagedata pid="76" name="Fear Error Check b" tags="" position="878,2919" size="100,100">(set: $count2 to (count: $fear, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+(if: $count2 &lt; 1 or $count2 &gt;= 20)[Invalid input. (Must contain at least one lowercase letter and be less than 20 characters.)
+
+(link-goto: &quot;Retry&quot;, &quot;Aiden 11b&quot;)
+(link-goto: &quot;Continue anyways&quot;, &quot;Aiden 11b.1&quot;)]
+(if: $count2 &gt;= 1 and $count2 &lt; 20)[(go-to: &quot;Aiden 11b.1&quot;)]</tw-passagedata><tw-passagedata pid="77" name="Aiden 11b.1" tags="" position="878,3032" size="100,100">&quot;That&#39;s not so weird,&quot; Aiden says.
+
+(link-reveal: &quot;You pass by a janitor&#39;s closet&quot;)[
+
+You grab Aiden and shove him in the janitor&#39;s closet. 
+
+&quot;Hey!&quot; He screams, pounding on the door as you barricade it with your body. &quot;Let me out, $name, please!&quot;
+
+You notice a nearby maid cart that has been abandoned. Holding the closet door shut with one hand, you move the cart to block the door with.
+
+(link-goto: &quot;Continue&quot;, &quot;Night 6&quot;)
+]
+
+(set: $meanToAiden to true)
+(set: $bad to it + 1)
+</tw-passagedata></tw-storydata>
