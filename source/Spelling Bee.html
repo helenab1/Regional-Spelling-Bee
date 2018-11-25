@@ -11,13 +11,19 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Spelling Bee" startnode="52" creator="Twine" creator-version="2.2.1" ifid="4F7359CD-B148-4651-BB0C-DBDD6539A0F2" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+<tw-storydata name="Spelling Bee" startnode="51" creator="Twine" creator-version="2.2.1" ifid="4F7359CD-B148-4651-BB0C-DBDD6539A0F2" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 
 tw-story {
 	font-family: 'Source Code Pro';
 	font-size: 115%;
+  	text-align: justify;
 }
+
+tw-passage {
+
+}
+
 
 tw-link {
 	color: lime;
@@ -65,6 +71,21 @@ tw-link:hover, .enchantment-link:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
@@ -77,7 +98,21 @@ tw-link:hover, .enchantment-link:hover {
 
 
 
-</script><tw-passagedata pid="1" name="Line" tags="" position="447,113" size="100,100">You hug your parents and go get into the long, swarming line of kids. You see the girl you met on the bus, Bhindaya, a ways up in line. She is talking to a cute boy next to her and playing with her hair.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Line" tags="" position="447,113" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya2.png?raw=true&quot; class=&quot;center&quot;&gt;
+You hug your parents and go get into the long, swarming line of kids. You see the girl you met on the bus, Bhindaya, a ways up in line. She is talking to a cute boy next to her and playing with her hair.
 
 (link-reveal: &quot;Get her attention&quot;)[
 
@@ -86,47 +121,65 @@ Bhindaya turns and waves at you, a huge smile on her face.
 (link-goto: &quot;Wave back&quot;, &quot;Line2&quot;)
 (link-goto: &quot;Flip her off&quot;, &quot;Line Optional&quot;)
 ]
-(link-goto: &quot;Ignore&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="" position="450,337" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+(link-goto: &quot;Ignore&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="2" name="Intro 1" tags="" position="450,337" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;\
+&lt;font color=&quot;fuchsia&quot;&gt;Fidget(mouseover: &quot;Fidget&quot;)[
+(ˈfijit, &lt;i&gt;verb&lt;/i&gt;, make small movements, especially of the hands and feet, through nervousness or impatience.)]&lt;/font&gt;
+
 &quot;Good evening everyone, and welcome to 16th annual Badger Valley Regional Spelling Bee hosted at the lovely SpringHill Suites. We may not be the big leagues yet, but what we lack in prestige we make up for in gumption. That&#39;s G-U-M-P-T-I-O-N, and if you&#39;d like me to use it in a sentence, (link-reveal: &quot;you can buy me a drink at the hotel bar.&quot;) [
 
-&quot;Every parent here should be proud of their little munchkin tonight, because it takes discipline and perserverence to study the art of spelling in today&#39;s age of distractions. My own son does nothing but sit around and play video games all day, and probably couldn&#39;t spell &quot;linguistics&quot; if his life depended on it. I mean, he still got into Stanford, (link-reveal: &quot;but he&#39;s an exceptional child.&quot;) [
+\&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;fuchsia&quot;&gt;Yawn(mouseover: &quot;Yawn&quot;)[
+(yôn, &lt;i&gt;verb&lt;/i&gt;, involuntarily open one&#39;s mouth wide and inhale deeply due to tiredness or boredom.)]&lt;/font&gt;&lt;/div&gt;\
 
-&quot;I forgot to introduce myself. My name is April Rose Holly, and I&#39;ll be your host for this event. Before I was a full-time regional spelling bee judge I was a high school English teacher, and before that I was an executive secretary. Back in those days we used Windows 98, and Word didn&#39;t put that red squiggly line under all your misspellings, (link-reveal: &quot;you had to run a manual spell check at the end.&quot;) [
+&quot;Every parent here should be proud of their little munchkin tonight, because it takes discipline and perseverance to study the art of spelling in today&#39;s age of distractions. My own son does nothing but sit around and play video games all day, and probably couldn&#39;t spell &quot;linguistics&quot; if his life depended on it. I mean, he still got into Stanford, (link-goto: &quot;but he&#39;s an exceptional child.&quot;, &quot;Intro 2&quot;) 
 
-&quot;And before I was a secretary I was making my way through the pageant circuit. Some of you may recognize me as 1991&#39;s Miss Central Beaver Valley County!&quot; Judge Holly smiles and waves to the crowd. &quot;Those days are behind me but my love for regional competition never died. Hosting these bees is my passion.
+&lt;font color=&quot;fuchsia&quot;&gt;Stretch(mouseover: &quot;Stretch&quot;)[
+(streCH, &lt;i&gt;verb&lt;/i&gt;, straighten or extend one&#39;s body or a part of one&#39;s body to its full length, typically so as to tighten one&#39;s muscles or in order to reach something.)]&lt;/font&gt;
 
-(link-goto: &quot;The rules are simple.&quot;, &quot;Rules&quot;)[]]]]
+]
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/intro1.ogg&quot; autoplay&gt;&lt;/audio&gt;
 
-</tw-passagedata><tw-passagedata pid="3" name="Line Optional" tags="" position="334,171" size="100,100">Bindhaya laughs. &quot;You&#39;re so funny, $name. Come by my hotel room later!&quot;
 
-(link-goto: &quot;Continue&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="4" name="Line2" tags="" position="450,225" size="100,100">You start to get nervous as it&#39;s almost time to go on stage. Like most of the other kids in line, you begin to flip through the study guide, hoping they start with the easy ones.
 
-(link-reveal: &quot;Embarrass&quot;) [
+
+
+
+</tw-passagedata><tw-passagedata pid="3" name="Line Optional" tags="" position="334,171" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya.png?raw=true&quot; class=&quot;center&quot;&gt;
+Bindhaya laughs. &quot;You&#39;re so funny, $name. Come by my hotel room later!&quot;
+
+(link-goto: &quot;Continue&quot;, &quot;Line2&quot;)</tw-passagedata><tw-passagedata pid="4" name="Line2" tags="" position="451,226" size="100,100">You start to get nervous as it&#39;s almost time to go on stage. Like most of the other kids in line, you begin to flip through the study guide, hoping they start with the easy ones.
+
+(link-reveal: &quot;embarrass&quot;) [
    &amp;nbsp emˈberəs
    &amp;nbsp &lt;i&gt;verb&lt;/i&gt;
    &amp;nbsp cause (someone) to feel awkward, self-conscious, or ashamed. 
 	&amp;nbsp &quot;The child would never embarrass her parents by losing the competition.&quot;
 	]
-(link-reveal: &quot;Impeccable&quot;) [
+(link-reveal: &quot;impeccable&quot;) [
 	&amp;nbsp imˈpekəb(ə)l
 	&amp;nbsp &lt;i&gt;adjective&lt;/i&gt;
 	&amp;nbsp (of behavior, performance, or appearance) in accordance with the highest standards of propriety; faultless.
 	&amp;nbsp &quot;Everyone agreed the judge was of impeccable character.&quot;
 	]
-(link-reveal: &quot;Liaison&quot;) [
+(link-reveal: &quot;liaison&quot;) [
 	&amp;nbsp lee-ey-zawn
 	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
 	&amp;nbsp a sexual relationship, especially one that is secret and involves unfaithfulness to a partner.
 	&amp;nbsp &quot;A liaison between two parents occurred in the hotel bar after bedtime.&quot;
 	]
 
-(link-goto: &quot;This might be tough.&quot;, &quot;Intro&quot;)</tw-passagedata><tw-passagedata pid="5" name="Fail 1" tags="" position="320,443" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+(link-goto: &quot;This might be tough.&quot;, &quot;Intro 1&quot;)</tw-passagedata><tw-passagedata pid="5" name="Fail 1" tags="" position="320,443" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 &quot;Oh #139, that is so not right. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Badger Valley Regional Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
 (link-goto: &quot;Retry&quot;, &quot;Rules&quot;)
-(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)</tw-passagedata><tw-passagedata pid="6" name="Test 1" tags="" position="568,446" size="100,100">Your word is: (audio of word) &lt;!-- impeccable --&gt;
+(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/fail.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="6" name="Test 1" tags="" position="567,447" size="100,100">Your word is:  			&lt;!-- impeccable --&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/impeccable.ogg&quot;&gt;
+&lt;/audio&gt;
 &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
 There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
 &lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
@@ -140,24 +193,27 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="7" name="Rules" tags="" position="450,446" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="7" name="Rules" tags="" position="455,561" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 &quot;You walk up to the podium and I announce your word. You can write it down on the podium for practice, ask me to repeat the word, or even ask me to use it (link-reveal: &quot;in a sentence if you&#39;d like.&quot;)[
 
-&quot;No cheating and no funny business of any kind. You have three minutes or you&#39;re out of the competition, and I mean immediately. No loitering on the podium after you&#39;re eliminated, no crying, and definitely no arguing parents after the fact. You can &lt;i&gt;try&lt;/i&gt; to persuade me with gifts. It probably won&#39;t work, (link-reveal: &quot;but I do like jewelry.&quot;)[
+&quot;No cheating and no funny business of any kind. You spell the word correctly or you&#39;re out of the competition, and I mean immediately. No loitering on the podium after you&#39;re eliminated, no crying, and definitely no arguing parents after the fact. You can &lt;i&gt;try&lt;/i&gt; to persuade me with gifts. It probably won&#39;t work, (link-reveal: &quot;but I do like jewelry.&quot;)[
 
 &quot;Ready? (link-goto: &quot;Let&#39;s begin!&quot;, (either: &quot;Test 1&quot;, &quot;Test 1a&quot;, &quot;Test 1b&quot;))]]
 
-</tw-passagedata><tw-passagedata pid="8" name="After Word 1" tags="" position="457,556" size="100,100">You watch the rest of the kids go up to the podium. Only a few need to be escorted off the stage in tears.
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/rules.ogg&quot; autoplay&gt;&lt;/audio&gt;
+
+
+
+</tw-passagedata><tw-passagedata pid="8" name="After Word 1" tags="" position="460,670" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya.png?raw=true&quot; class=&quot;center&quot;&gt;
+You watch the rest of the kids go up to the podium. Only a few need to be escorted off the stage in tears.
 
 Bhindaya goes up, beaming confidence. She spells her word correctly.
 
-(link-goto: &quot;Competition is real.&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="9" name="Night 1" tags="" position="457,673" size="100,100">Your parents are proud. They promise to bring you back a to-go box and leave you to study in your room.
+(link-goto: &quot;Competition is real.&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="9" name="Night 1" tags="" position="460,785" size="100,100">Your parents are proud. They promise to bring you back a to-go box and leave you to study in your room.
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 1&quot;)
 (link-goto: &quot;Go to Bhindaya&#39;s room&quot;, &quot;Bhindaya 1&quot;)
-(link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)</tw-passagedata><tw-passagedata pid="10" name="Study Guide 1" tags="" position="342,671" size="100,100">Study Guide, Night One
-
-(link-reveal: &quot;canal&quot;)[
+(link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)</tw-passagedata><tw-passagedata pid="10" name="Study Guide 1" tags="" position="345,753" size="100,100">(link-reveal: &quot;canal&quot;)[
 	&amp;nbsp kəˈnal
 	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
 	&amp;nbsp an artificial waterway constructed to allow the passage of boats or ships inland or to convey water for irrigation.
@@ -206,7 +262,8 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
 	]
 	
-(link-goto: &quot;Back&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="11" name="Bhindaya 1" tags="" position="222,670" size="100,100">You knock on Bhindaya&#39;s door. She bursts it open with a smile. &quot;Hi $name, want to study together?&quot;
+(link-goto: &quot;Back&quot;, &quot;Night 1&quot;)</tw-passagedata><tw-passagedata pid="11" name="Bhindaya 1" tags="" position="225,746" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya.png?raw=true&quot; class=&quot;center&quot;&gt;
+You knock on Bhindaya&#39;s door. She bursts it open with a smile. &quot;Hi $name, want to study together?&quot;
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 1&quot;)
 (link-reveal: &quot;Talk&quot;)[
@@ -224,7 +281,8 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 		&quot;Oh my god, you&#39;re the best. He&#39;s in room #203, just a couple down. I always hear his parents arguing.&quot;
 		
 		(link-goto: &quot;Go to Aiden&#39;s room&quot;, &quot;Aiden 1&quot;)]
-	]</tw-passagedata><tw-passagedata pid="12" name="Aiden 1" tags="" position="104,668" size="100,100">You hear arguing outside #203. (link-reveal: &quot;Knock.&quot;)[
+	]</tw-passagedata><tw-passagedata pid="12" name="Aiden 1" tags="" position="104,668" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+You hear arguing outside #203. (link-reveal: &quot;Knock.&quot;)[
 	
 	Aiden opens the door slightly and looks at you through the crack. &quot;Hello?&quot; He says.
 	
@@ -261,11 +319,12 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	(link-goto: &quot;Do it!&quot;, &quot;Bhindaya 2b&quot;)	
 	]
 ]
-(link-goto: &quot;Give original note to Bhindaya&quot;, &quot;Bhindaya 2a&quot;)</tw-passagedata><tw-passagedata pid="14" name="Bhindaya 2b" tags="" position="203,913" size="100,100">You bring the note back to Bhindaya.
+(link-goto: &quot;Give original note to Bhindaya&quot;, &quot;Bhindaya 2a&quot;)</tw-passagedata><tw-passagedata pid="14" name="Bhindaya 2b" tags="" position="203,913" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya.png?raw=true&quot; class=&quot;center&quot;&gt;
+You bring the note back to Bhindaya.
 
 &quot;He wrote me a note?&quot; She says. &quot;That&#39;s so cute. I have to go read it and then study. See you tomorrow!&quot;
 
-(link-goto: &quot;Go back to your room.&quot;, &quot;Night 1b&quot;)
+(link-goto: &quot;Go back to your room&quot;, &quot;Night 1b&quot;)
 
 (set: $bad to it + 1) &lt;!-- This variable increments --&gt;
 (set: $meanToBhindaya to true) &lt;!-- Won&#39;t display for a test but looks like it&#39;s working --&gt;
@@ -277,9 +336,7 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 (link-goto: &quot;Sleep&quot;, &quot;Morning 2&quot;)
 
 &lt;!-- Tested bad variable, counts as 1 --&gt;
-</tw-passagedata><tw-passagedata pid="16" name="Study Guide 1b" tags="" position="120,1141" size="100,100">Study Guide, Night One
-
-(link-reveal: &quot;canal&quot;)[
+</tw-passagedata><tw-passagedata pid="16" name="Study Guide 1b" tags="" position="120,1141" size="100,100">(link-reveal: &quot;canal&quot;)[
 	&amp;nbsp kəˈnal
 	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
 	&amp;nbsp an artificial waterway constructed to allow the passage of boats or ships inland or to convey water for irrigation.
@@ -328,7 +385,7 @@ Bhindaya goes up, beaming confidence. She spells her word correctly.
 	&amp;nbsp &quot;The parents sometimes wish they&#39;d left him at the nursery.&quot;
 	]
 	
-(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="17" name="Morning 2" tags="" position="457,1245" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+(link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="17" name="Morning 2" tags="" position="458,1482" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
 
 &quot;...and everyone, please remember to clear out quickly after the show tonight, as the SpringHill Suites (link-reveal: &quot;hosts bingo night on Tuesdays and Fridays.&quot;)[
@@ -345,20 +402,27 @@ It&#39;s the second day of the competition. You&#39;re back in line to go on sta
 		
 		&lt;p&gt;&quot;Sure can,&quot; Judge Holly says. &quot;&#39;He found the girl quite repulsive.&quot;&lt;/p&gt;
 		
-		&lt;p&gt;(link-goto: &quot;Bindhaya bursts into sobs and runs off the stage.&quot;, &quot;Test 2&quot;)&lt;/p&gt;
+		&lt;p&gt;(link-goto: &quot;Bindhaya bursts into sobs and runs off the stage.&quot;, (either: &quot;Test 2&quot;, &quot;Test 2a&quot;, &quot;Test 2b&quot;))&lt;/p&gt;
 		]
-		(else:)[Bhindaya spells her word correctly. (link-goto: &quot;It&#39;s your turn.&quot;, &quot;Test 2&quot;)]}
+		(else:)[Bhindaya spells her word correctly. (link-goto: &quot;It&#39;s your turn.&quot;, (either: &quot;Test 2&quot;, &quot;Test 2a&quot;, &quot;Test 2b&quot;))]}
 	]
 ]
 ]
 
-&lt;!-- Works perfectly! --&gt;</tw-passagedata><tw-passagedata pid="18" name="Bhindaya 2a" tags="" position="24,914" size="100,100">You bring the note back to Bhindaya.
+&lt;!-- Works perfectly! --&gt;</tw-passagedata><tw-passagedata pid="18" name="Bhindaya 2a" tags="" position="23,914" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya.png?raw=true&quot; class=&quot;center&quot;&gt;
+You bring the note back to Bhindaya.
 
 &quot;He wrote me a note?&quot; She says. &quot;That&#39;s so cute. I have to go read it and then study. See you tomorrow!&quot;
 
-(link-goto: &quot;Go back to your room.&quot;, &quot;Night 1b&quot;)
+(link-goto: &quot;Go back to your room&quot;, &quot;Night 1b&quot;)
 
-(set: $meanToBhindaya to false)</tw-passagedata><tw-passagedata pid="19" name="Test 2" tags="" position="457,1359" size="100,100">Your word is: (audio of word) &lt;!--balloonist--&gt;
+(set: $meanToBhindaya to false)
+(set: $bad to it - 1)
+</tw-passagedata><tw-passagedata pid="19" name="Test 2" tags="" position="572,1441" size="100,100">Your word is:  &lt;!--balloonist--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/balloonist.ogg&quot;&gt;
+&lt;/audio&gt;
 &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
 There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
 &lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
@@ -372,23 +436,25 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="20" name="Enter Word 2.1" tags="" position="459,1474" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="20" name="Enter Word 2.1" tags="" position="686,1442" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 2.2&quot;)</tw-passagedata><tw-passagedata pid="21" name="Fail 2" tags="" position="342,1472" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 2.2&quot;)</tw-passagedata><tw-passagedata pid="21" name="Fail 2" tags="" position="340,1480" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 &quot;Oh #139, you sweet summer child. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Badger Valley Regional Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
-(link-goto: &quot;Retry&quot;, &quot;Test 2&quot;)
-(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)</tw-passagedata><tw-passagedata pid="22" name="After Word 2" tags="" position="456,1598" size="100,100">You breathe a sigh of relief.
+(link-goto: &quot;Retry&quot;, &quot;Morning 2&quot;)
+(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)
 
-(link-goto: &quot;Continue&quot;, &quot;Montage 1&quot;)</tw-passagedata><tw-passagedata pid="23" name="Montage 1" tags="" position="455,1714" size="100,100">Over the next few days, competition gets tighter. The difficulty of the words ramps up. Judge Holly seems to savor every crushed dream.
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/fail.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="22" name="After Word 2" tags="" position="456,1598" size="100,100">You breathe a sigh of relief.
 
-On day three, you spell &lt;font color=&quot;lime&quot;&gt;supercilious &lt;/font&gt;&lt;font color=&quot;lime&quot;&gt;(mouseover: &quot;supercilious&quot;)[(so͞opərˈsilēəs, &lt;i&gt;adjective&lt;/i&gt;, behaving or looking as though one thinks one is superior to others.)]&lt;/font&gt; with ease.
+(link-goto: &quot;Continue&quot;, &quot;Montage 1&quot;)</tw-passagedata><tw-passagedata pid="23" name="Montage 1" tags="" position="455,1713" size="100,100">Over the next few days, competition gets tighter. The difficulty of the words ramps up. Judge Holly seems to savor every crushed dream.
 
-On day four, you stutter through &lt;font color=&quot;lime&quot;&gt;celerity&lt;/font&gt; &lt;font color=&quot;lime&quot;&gt;(mouseover: &quot;celerity&quot;)[(səˈlerədē, &lt;i&gt;noun&lt;/i&gt;, swiftness of movement.)]&lt;/font&gt;.
+On day three, you spell &lt;font color=&quot;fuchsia&quot;&gt;supercilious &lt;/font&gt;&lt;font color=&quot;fuchsia&quot;&gt;(mouseover: &quot;supercilious&quot;)[(so͞opərˈsilēəs, &lt;i&gt;adjective&lt;/i&gt;, behaving or looking as though one thinks one is superior to others.)]&lt;/font&gt; with ease.
 
-On day five, you guess your way through &lt;font color=&quot;lime&quot;&gt;unpropitious&lt;/font&gt;&lt;font color=&quot;lime&quot;&gt;(mouseover: &quot;unpropitious&quot;)[(ənprəˈpiSHəs, &lt;i&gt;noun&lt;/i&gt;, (of a circumstance) not giving or indicating a good chance of success; unfavorable)]&lt;/font&gt;.
+On day four, you stutter through &lt;font color=&quot;fuchsia&quot;&gt;celerity&lt;/font&gt; &lt;font color=&quot;fuchsia&quot;&gt;(mouseover: &quot;celerity&quot;)[(səˈlerədē, &lt;i&gt;noun&lt;/i&gt;, swiftness of movement.)]&lt;/font&gt;.
+
+On day five, you guess your way through &lt;font color=&quot;fuchsia&quot;&gt;unpropitious&lt;/font&gt;&lt;font color=&quot;fuchsia&quot;&gt;(mouseover: &quot;unpropitious&quot;)[(ənprəˈpiSHəs, &lt;i&gt;noun&lt;/i&gt;, (of a circumstance) not giving or indicating a good chance of success; unfavorable)]&lt;/font&gt;.
 
 You make it to the top 20. (link-goto: &quot;It&#39;s time to study hard.&quot;, &quot;Night 5&quot;)
 
@@ -396,7 +462,8 @@ You make it to the top 20. (link-goto: &quot;It&#39;s time to study hard.&quot;,
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 5&quot;)
 (link-goto: &quot;Take a walk&quot;, &quot;Out Night 5&quot;)
-(link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)</tw-passagedata><tw-passagedata pid="25" name="Out Night 5" tags="" position="214,1824" size="100,100">You wander around the now empty-feeling halls of the hotel and down into the lobby. Standing at the vending machine are two girls you recognize from the bee, (link-reveal: &quot;Kaylee and Ayumi.&quot;)[
+(link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)</tw-passagedata><tw-passagedata pid="25" name="Out Night 5" tags="" position="214,1824" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
+You wander around the now empty-feeling halls of the hotel and down into the lobby. Standing at the vending machine are two girls you recognize from the bee, (link-reveal: &quot;Kaylee and Ayumi.&quot;)[
 
 To your surprise, Kaylee greets you. &quot;Hey $name, tough day, right? I&#39;m so glad there are other cool people still in this game.&quot;
 
@@ -470,7 +537,7 @@ Kaylee and Ayumi start giggling. &quot;Museum of literacy? Is that even real?&qu
 ]
 
 
-(link-goto: &quot;Back&quot;, &quot;Night 5&quot;)</tw-passagedata><tw-passagedata pid="27" name="Morning 6" tags="" position="814,1846" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+(link-goto: &quot;Back&quot;, &quot;Night 5&quot;)</tw-passagedata><tw-passagedata pid="27" name="Morning 6" tags="" position="812,1846" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 It&#39;s the sixth day of the competition. You&#39;re back in line to go on stage. (link-reveal: &quot;Judge Holly is finishing up introductions.&quot;)[
 
 &quot;...it&#39;s the second to last night of the competition, and our goal is to get this down to two contestants. If each one of you gets every word correctly for the next six hours straight, well, (link-reveal: &quot;just remember it&#39;s okay to fail, alright?&quot;)[
@@ -492,26 +559,16 @@ It&#39;s the sixth day of the competition. You&#39;re back in line to go on stag
 ]
 ]
 ]
-</tw-passagedata><tw-passagedata pid="28" name="Aiden Sabotage and other notes" tags="" position="51,1574" size="100,100">Aiden can spell out that one word that meant small space then comment that&#39;s his greatest fear and the last test will be locking him in a closet.
-
-interstice
-
-Katie can say that she relies on her phone for all her studying while you hang out with her, and you can steal her phone for the bad point.
-
-Winning with three bad points: You got the trophy, and does it matter who you had to step on to get here? You won a regional spelling bee, the world is yours! Congratulations on being an accomplished little sociopath.
-
-Winning with one or two: You dabbled in bullying and sabotage, but in the end you buckled down and won the trophy (mostly) based on your own merits. Congratulations!
-
-Winning with 0 bad points: You studied hard and you did it all on your own. You&#39;re a literal angel, and your parents are so proud. You&#39;ve got national spelling bee written all over you, kid. Congratulations!
-
-</tw-passagedata><tw-passagedata pid="29" name="Kaylee 1" tags="" position="269,1944" size="100,100">Kaylee and Akumi both link arms with you as you head towards the exit.
+</tw-passagedata><tw-passagedata pid="28" name="Kaylee 1" tags="" position="269,1944" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
+Kaylee and Akumi both link arms with you as you head towards the exit.
 
 &quot;So glad you came with us,&quot; Kaylee says. &quot;Those guys are such nerds.&quot;
 
 &quot;Who goes to a museum for fun?&quot; Ayumi laughs.
 
 (link-goto: &quot;We&#39;re all in a spelling bee, though...&quot;, &quot;Kaylee 2&quot;)
-(link-goto: &quot;Totally, I hate nerds.&quot;, &quot;Kaylee 2&quot;)</tw-passagedata><tw-passagedata pid="30" name="Kaylee 2" tags="" position="268,2057" size="100,100">The sun sets as you walk down the mostly empty main road. You reach a liquor store named &quot;Tony&#39;s.&quot;
+(link-goto: &quot;Totally, I hate nerds.&quot;, &quot;Kaylee 2&quot;)</tw-passagedata><tw-passagedata pid="29" name="Kaylee 2" tags="" position="268,2057" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
+The sun sets as you walk down the mostly empty main road. You reach a liquor store named &quot;Tony&#39;s.&quot;
 
 &quot;Okay, we&#39;re here,&quot; Kaylee says.
 
@@ -535,7 +592,9 @@ You squint your eyes and see a homeless man holding a cardboard sign outside the
 (link-goto: &quot;Bail and catch up with Aiden&quot;, &quot;Aiden 3&quot;)
 ]
 ]
-]</tw-passagedata><tw-passagedata pid="31" name="Kaylee 3" tags="" position="268,2169" size="100,100">&quot;Hello sir,&quot; You say, approaching the man. &quot;May I please ask you a favor?&quot;
+]</tw-passagedata><tw-passagedata pid="30" name="Kaylee 3" tags="" position="268,2169" size="100,100">&lt;img src=&quot;homeless&quot; class=&quot;center&quot;&gt;
+
+&quot;Hello sir,&quot; You say, approaching the man. &quot;May I please ask you a favor?&quot;
 
 The man peers at you then starts laughing. &quot;What the hell could I do for you, kid?&quot;
 
@@ -553,14 +612,16 @@ The man peers at you then starts laughing. &quot;What the hell could I do for yo
 
 (link-goto: &quot;Continue&quot;, &quot;Kaylee 4&quot;)
 ]
-]</tw-passagedata><tw-passagedata pid="32" name="Kaylee 4" tags="" position="268,2287" size="100,100">&quot;You are seriously the most awesome person I have ever met, $name!&quot; Kaylee gushes, opening the pint. &quot;He definitely got us the cheap stuff, but it&#39;s okay.&quot;
+]</tw-passagedata><tw-passagedata pid="31" name="Kaylee 4" tags="" position="267,2287" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;You are seriously the most awesome person I have ever met, $name!&quot; Kaylee gushes, opening the pint. &quot;He definitely got us the cheap stuff, but it&#39;s okay.&quot;
 
 Kaylee takes a swig and makes a face. She and Ayumi giggle.
 
 &quot;Want some?&quot; Kaylee offers you the pint.
 
 (link-goto: &quot;Yes&quot;, &quot;Kaylee 5b&quot;) 
-(link-goto: &quot;No&quot;, &quot;Kaylee 5a&quot;)</tw-passagedata><tw-passagedata pid="33" name="Kaylee 5b" tags="" position="340,2399" size="100,100">The pint gets passed around a few times until you start feeling warm, sick, and happy all at once.
+(link-goto: &quot;No&quot;, &quot;Kaylee 5a&quot;)</tw-passagedata><tw-passagedata pid="32" name="Kaylee 5b" tags="" position="340,2399" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
+The pint gets passed around a few times until you start feeling warm, sick, and happy all at once.
 
 (link-reveal: &quot;How are you going to manage to study tonight?&quot;)[
 
@@ -574,7 +635,7 @@ Kaylee laughs and takes another sip. &quot;Ugh, this stuff is awful! But what we
 ]
 ]
 
-(set: $youDrank to true)</tw-passagedata><tw-passagedata pid="34" name="Kaylee 6b" tags="" position="339,2514" size="100,100">You start to feel sick and stop drinking. Your head is spinning, but Kaylee and Ayumi seem much drunker than you.
+(set: $youDrank to true)</tw-passagedata><tw-passagedata pid="33" name="Kaylee 6b" tags="" position="339,2514" size="100,100">You start to feel sick and stop drinking. Your head is spinning, but Kaylee and Ayumi seem much drunker than you.
 
 (link-reveal: &quot;You lead the two girls back to the hotel&quot;)[
 
@@ -587,7 +648,7 @@ Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin
 &quot;Stay with me!&quot; Kaylee yells. &quot;$name! Help us!&quot;
 
 (link-goto: &quot;Okay, okay, I&#39;m helping you.&quot;, &quot;Kaylee 7&quot;)
-]</tw-passagedata><tw-passagedata pid="35" name="Kaylee 7" tags="" position="262,2626" size="100,100">You lead Kaylee and Ayumi to the room and manage to get the keycard from Kaylee&#39;s limp fingers. Thankfully, there are no parents present.
+]</tw-passagedata><tw-passagedata pid="34" name="Kaylee 7" tags="" position="262,2626" size="100,100">You lead Kaylee and Ayumi to the room and manage to get the keycard from Kaylee&#39;s limp fingers. Thankfully, there are no parents present.
 
 (link-reveal: &quot;Tuck them into bed&quot;)[
 
@@ -600,25 +661,30 @@ Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin
 (link-goto: &quot;Get her water&quot;, &quot;Kaylee 8a&quot;)
 (link-goto: &quot;Refuse to get her water&quot;, &quot;Kaylee 8b&quot;)
 ]
-]</tw-passagedata><tw-passagedata pid="36" name="Kaylee 8b" tags="" position="317,2738" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
+]</tw-passagedata><tw-passagedata pid="35" name="Kaylee 8b" tags="" position="317,2738" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
 
 (link-goto: &quot;Take the phone&quot;, &quot;Kaylee 9b&quot;)
 (link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)
 
 (set: $bad to it + 1)
-(set: $meanToAyumi to true)</tw-passagedata><tw-passagedata pid="37" name="Kaylee 8a" tags="" position="207,2736" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
+(set: $meanToAyumi to true)</tw-passagedata><tw-passagedata pid="36" name="Kaylee 8a" tags="" position="207,2736" size="100,100">You go to leave the room and almost trip over something on the floor. It&#39;s Kaylee&#39;s purse. Taking a closer look, you can see her pink iPhone.
 
 (link-goto: &quot;Take the phone&quot;, &quot;Kaylee 9b&quot;)
-(link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)</tw-passagedata><tw-passagedata pid="38" name="Kaylee 9a" tags="" position="199,2854" size="100,100">You leave the phone where it is and head back to your room. There&#39;s still some time study.
+(link-goto: &quot;Leave the phone&quot;, &quot;Kaylee 9a&quot;)
+(set: $bad to it - 1)
+</tw-passagedata><tw-passagedata pid="37" name="Kaylee 9a" tags="" position="199,2854" size="100,100">You leave the phone where it is and head back to your room. There&#39;s still some time study.
 
-(link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)</tw-passagedata><tw-passagedata pid="39" name="Kaylee 9b" tags="" position="320,2856" size="100,100">You grab the phone and stick it in your pocket, glancing back at Kaylee and Ayumi in the bed together. They appear to be asleep.
+(link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)
+(set: $bad to it - 1)
+</tw-passagedata><tw-passagedata pid="38" name="Kaylee 9b" tags="" position="320,2856" size="100,100">You grab the phone and stick it in your pocket, glancing back at Kaylee and Ayumi in the bed together. They appear to be asleep.
 
 You leave and head back to your room. There&#39;s still time to study.
 
 (link-goto: &quot;Continue&quot;, &quot;Night 5b&quot;)
 
 (set: $bad to it + 1)
-(set: $meanToKaylee to true)</tw-passagedata><tw-passagedata pid="40" name="Aiden 2" tags="" position="535,1943" size="100,100">The three of you link arms and head towards the museum. &quot;I&#39;m so happy you joined us,&quot; Aiden says. &quot;Kaylee is not a very nice person.&quot;
+(set: $meanToKaylee to true)</tw-passagedata><tw-passagedata pid="39" name="Aiden 2" tags="" position="535,1943" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+The three of you link arms and head towards the museum. &quot;I&#39;m so happy you joined us,&quot; Aiden says. &quot;Kaylee is not a very nice person.&quot;
 
 &quot;She called me a taped-eyeglasses wearer,&quot; Rajesh says. &quot;I don&#39;t get it.&quot;
 
@@ -626,18 +692,19 @@ You approach the museum. It&#39;s a quaint historical house with a wooden sign o
 
 (link-goto: &quot;Enter&quot;, &quot;Aiden 3&quot;)
 (link-goto: &quot;Bail and catch up with Kaylee and Ayumi&quot;, &quot;Kaylee 1&quot;)
-</tw-passagedata><tw-passagedata pid="41" name="Night 5b" tags="" position="251,2970" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
+</tw-passagedata><tw-passagedata pid="40" name="Night 5b" tags="" position="251,2970" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 5b&quot;)
 (link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)
 
-</tw-passagedata><tw-passagedata pid="42" name="Study Guide 5b" tags="" position="164,3078" size="100,100">{(if: $youDrank is true)[You try to look at the guide, but your head starts to pound and the words make you dizzy and nauseous.]
+</tw-passagedata><tw-passagedata pid="41" name="Study Guide 5b" tags="" position="164,3078" size="100,100">{(if: $youDrank is true)[You try to look at the guide, but your head starts to pound and the words make you dizzy and nauseous.]
 (else-if: $youDrank is false)[
 	(go-to: &quot;Study Guide 5a&quot;)
 ]}
 
 (link-goto: &quot;Back&quot;, &quot;Night 5b&quot;)
-</tw-passagedata><tw-passagedata pid="43" name="Kaylee 5a" tags="" position="203,2401" size="100,100">You refuse the drink. (set: $youDrank to false)
+</tw-passagedata><tw-passagedata pid="42" name="Kaylee 5a" tags="" position="203,2401" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
+You refuse the drink. (set: $youDrank to false)
 
 Kaylee shrugs. &quot;More for me.&quot;
 
@@ -652,7 +719,7 @@ Kaylee laughs and takes another sip. &quot;Ugh, this stuff is awful! But what we
 (link-goto: &quot;Continue&quot;, &quot;Kaylee 6a&quot;)
 ]
 ]
-</tw-passagedata><tw-passagedata pid="44" name="Kaylee 6a" tags="" position="200,2510" size="100,100">Kaylee and Ayumi seem to be getting pretty tipsy.
+</tw-passagedata><tw-passagedata pid="43" name="Kaylee 6a" tags="" position="200,2510" size="100,100">Kaylee and Ayumi seem to be getting pretty tipsy.
 
 (link-reveal: &quot;You lead the two girls back to the hotel&quot;)[
 
@@ -665,18 +732,24 @@ Kaylee and Ayumi are bumping into the walls, and adults in the hotel lobby begin
 &quot;Stay with me!&quot; Kaylee yells. &quot;$name! Help us!&quot;
 
 (link-goto: &quot;Okay, okay, I&#39;m helping you.&quot;, &quot;Kaylee 7&quot;)
-]</tw-passagedata><tw-passagedata pid="45" name="Aiden 3" tags="" position="534,2053" size="100,100">You enter the museum. An elderly woman in a knitted sweater greets you. &quot;Welcome to the Museum of Literacy, children. I was just about to close up for the night, but I must offer a quick tour to the bright-eyed young scholars who went to a museum of their own volition!&quot;
+]</tw-passagedata><tw-passagedata pid="44" name="Aiden 3" tags="" position="534,2053" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/museumlady.png?raw=true&quot; class=&quot;center&quot;&gt;
+
+You enter the museum. An elderly woman in a knitted sweater greets you. &quot;Welcome to the Museum of Literacy, children. I was just about to close up for the night, but I must offer a quick tour to the bright-eyed young scholars who went to a museum of their own &lt;font color=&quot;fuchsia&quot;&gt;volition&lt;/font&gt;&lt;font color=&quot;fuchsia&quot;&gt;(mouseover: &quot;volition&quot;)[ (vōˈliSH(ə)n, &lt;i&gt;noun&lt;/i&gt;, the faculty or power of using one&#39;s will.)]&lt;/font&gt;!&quot;
 
 (link-goto: &quot;Continue&quot;, &quot;Aiden 4&quot;)
 
-</tw-passagedata><tw-passagedata pid="46" name="Aiden 4" tags="" position="538,2165" size="100,100">The woman leads you down the corrider. She gestures to a photograph of (link-reveal: &quot;two stone tablets.&quot;)[
+</tw-passagedata><tw-passagedata pid="45" name="Aiden 4" tags="" position="538,2165" size="100,100">&lt;img src=&quot;tablets&quot; class=&quot;center&quot;&gt;
 
-&quot;The Kish tablet is a limestone tablet found at Tell al-Uhaymir, Babil Governorate, Iraq, the cite of the ancient Sumerian city of Kish. The writing on the tablet is pictographic, and represents a transitional stage between proto-writing and the emergence of partly syllabic writing of the cuneiform script proper. The tablet is dated to 3500 BC.&quot;
+The woman leads you down the corrider. She gestures to a photograph of (link-reveal: &quot;two stone tablets.&quot;)[
+
+&quot;The Kish tablet is a limestone tablet found at Tell al-Uhaymir, Babil Governorate, Iraq, the site of the ancient Sumerian city of Kish. The writing on the tablet is pictographic, and represents a transitional stage between proto-writing and the emergence of partly syllabic writing of the &lt;font color=&quot;fuchsia&quot;&gt;cuneiform&lt;/font&gt;&lt;font color=&quot;fuchsia&quot;&gt;(mouseover: &quot;cuneiform&quot;)[ (kyo͞oˈnēəˌfôrm, &lt;i&gt;adjective&lt;/i&gt;, denoting or relating to the wedge-shaped characters used in the ancient writing systems of Mesopotamia, Persia, and Ugarit, surviving mainly impressed on clay tablets.)]&lt;/font&gt; script proper. The tablet is dated to 3500 BC.&quot;
 
 (link-goto: &quot;Continue&quot;, &quot;Aiden 5&quot;)
 ]
 
-&lt;!-- Add in reveal definitions for pictographic and syllabic --&gt;</tw-passagedata><tw-passagedata pid="47" name="Aiden 5" tags="" position="534,2278" size="100,100">&quot;The first books were produced in first-century BC in Rome. Books were produced on wax-coated wooden tablets, then scrolls of papyrus, which was eventually replaced by parchment. Some notable early Roman works included the poet Horace&#39;s (link-reveal: &quot;three books of Odes.&quot;)[
+&lt;!-- Add in reveal definitions for pictographic and syllabic --&gt;</tw-passagedata><tw-passagedata pid="46" name="Aiden 5" tags="" position="534,2278" size="100,100">&lt;img src=&quot;homer&quot; class=&quot;center&quot;&gt;
+
+&quot;The first books were produced in first-century BC in Rome. Books were produced on wax-coated wooden tablets, then scrolls of &lt;font color=&quot;fuchsia&quot;&gt;papyrus&lt;/font&gt;&lt;font color=&quot;fuchsia&quot;&gt;(mouseover: &quot;papyrus&quot;)[ (pəˈpīrəs, &lt;i&gt;noun&lt;/i&gt;, a material prepared in ancient Egypt from the pithy stem of a water plant, used in sheets throughout the ancient Mediterranean world for writing or painting on and also for making rope, sandals, and boats.)]&lt;/font&gt;, which was eventually replaced by parchment. Some notable early Roman works included the poet Horace&#39;s (link-reveal: &quot;three books of Odes.&quot;)[
 
 &quot;Here, I always give out these cards containing passages from Horace&#39;s works as a souvenier for all museum-visitors, to remind of us of how far we&#39;ve come!&quot; She extends a small laminated card to you.
 
@@ -686,12 +759,16 @@ You inspect the card. It reads: &quot;Poverty urges us to do and suffer anything
 ]
 (link-goto: &quot;Continue&quot;, &quot;Aiden 6&quot;)
 ]
-</tw-passagedata><tw-passagedata pid="48" name="Aiden 6" tags="" position="536,2389" size="100,100">&quot;The printing press was invented by German goldsmith Johannes Gutenberg in 1439. The press allowed for more widespread distribution of texts. Where would we even be today (link-reveal: &quot;if it weren&#39;t for Mr. Gutenberg?&quot;)[
+</tw-passagedata><tw-passagedata pid="47" name="Aiden 6" tags="" position="536,2389" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/museumlady.png?raw=true&quot; class=&quot;center&quot;&gt;
+
+&quot;The printing press was invented by German goldsmith Johannes Gutenberg in 1439. The press allowed for more widespread distribution of texts. Where would we even be today (link-reveal: &quot;if it weren&#39;t for Mr. Gutenberg?&quot;)[
 
 &quot;The first published work in the U.S. was &#39;The Power of Sympathy: or, The Triumph of Nature written by William Hill Brown in 1789. Have any of you read that one in class?&quot; 
 
 (link-goto: &quot;Nope.&quot;, &quot;Aiden 7&quot;)]
-</tw-passagedata><tw-passagedata pid="49" name="Aiden 7" tags="" position="534,2502" size="100,100">She laughs. &quot;You aren&#39;t missing anything. In those times, literacy rates were quite low. In the 1920s literacy reached 70% in parts of the U.S, and by the 1940s (link-reveal: &quot;40% of Americans read literature!&quot;)[
+</tw-passagedata><tw-passagedata pid="48" name="Aiden 7" tags="" position="534,2502" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/museumlady.png?raw=true&quot; class=&quot;center&quot;&gt;
+
+She laughs. &quot;You aren&#39;t missing anything. In those times, literacy rates were quite low. In the 1920s literacy reached 70% in parts of the U.S, and by the 1940s (link-reveal: &quot;40% of Americans read literature!&quot;)[
 
 &quot;Some pessimists may say &#39;people don&#39;t read anymore.&#39; That&#39;s just ridiculous. People read so much, we&#39;ve invented new devices to read on! We still have print books going strong, we read on our e-readers, we read the newspaper on our phones, we read texts to eachother all day. (link-reveal: &quot;Can you imagine life without reading?&quot;)[
 
@@ -699,7 +776,9 @@ You inspect the card. It reads: &quot;Poverty urges us to do and suffer anything
 
 (link-goto: &quot;Continue&quot;, &quot;Aiden 8&quot;)
 ]
-]</tw-passagedata><tw-passagedata pid="50" name="Aiden 8" tags="" position="533,2624" size="100,100">&quot;That was fun,&quot; Aiden says as the three of you head back to a hotel. You walk past a liquor store called &quot;Tony&#39;s.&quot;
+]</tw-passagedata><tw-passagedata pid="49" name="Aiden 8" tags="" position="533,2624" size="100,100">&lt;img src=&quot;homeless&quot; class=&quot;center&quot;&gt;
+
+&quot;That was fun,&quot; Aiden says as the three of you head back to a hotel. You walk past a liquor store called &quot;Tony&#39;s.&quot;
 
 &quot;Wait, let me buy a soda from here,&quot; Rajesh says.
 
@@ -721,27 +800,29 @@ You run back to your hotel and full speed.]]]]]
 
 (link-goto: &quot;Continue&quot;, &quot;Night 5a&quot;)
 
-(set: $wentWithAiden to true)</tw-passagedata><tw-passagedata pid="51" name="Night 5a" tags="" position="497,2746" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
+(set: $wentWithAiden to true)</tw-passagedata><tw-passagedata pid="50" name="Night 5a" tags="" position="497,2746" size="100,100">You&#39;re alone in your hotel room. Your parents are still downstairs at bingo.
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 5a&quot;)
 (link-goto: &quot;Sleep&quot;, &quot;Morning 6&quot;)
-</tw-passagedata><tw-passagedata pid="52" name="Welcome 1" tags="" position="200,0" size="100,100">Welcome to the 16th Annual Badger Valley Regional Spelling Bee. Please enter your name. 
+</tw-passagedata><tw-passagedata pid="51" name="Welcome 1" tags="" position="200,0" size="100,100">Welcome to the 16th Annual Badger Valley Regional Spelling Bee. Please enter your name. TYPE ENTER THEN CLICK SUBMIT.
 
-&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;only when your name appears here&lt;/u&gt; (type enter when done typing).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $name to textbox1)$name]
+&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;only when your name appears here.&lt;/u&gt;&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $name to textbox1)$name]
 
-(live: 5s)[(link-goto: &quot;Submit&quot;, &quot;Welcome Error Check&quot;)(stop:)]
+[(link-goto: &quot;Submit&quot;, &quot;Welcome Error Check&quot;)]
 
-</tw-passagedata><tw-passagedata pid="53" name="Enter Word 1.1" tags="" position="682,444" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+This game features voice acting which is essential to gameplay (spelling words). Please use Firefox or Chrome for the best experience.
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 1.2&quot;)</tw-passagedata><tw-passagedata pid="54" name="Enter Word 1.2" tags="" position="798,443" size="100,100">{(if: $word1 is &quot;impeccable&quot;)[
+</tw-passagedata><tw-passagedata pid="52" name="Enter Word 1.1" tags="" position="682,444" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 1.2&quot;)</tw-passagedata><tw-passagedata pid="53" name="Enter Word 1.2" tags="" position="798,443" size="100,100">{(if: $word1 is &quot;impeccable&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 1&quot;)
-]}</tw-passagedata><tw-passagedata pid="55" name="Enter Word 2.2" tags="" position="578,1473" size="100,100">{(if: $word2 is &quot;balloonist&quot;)[
+]}</tw-passagedata><tw-passagedata pid="54" name="Enter Word 2.2" tags="" position="801,1440" size="100,100">{(if: $word2 is &quot;balloonist&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
-]}</tw-passagedata><tw-passagedata pid="56" name="Welcome 2" tags="" position="447,3" size="100,100">You must be between the ages of 8 to 15 to enter the spelling bee. Are you within the proper age limit for this bee?
+]}</tw-passagedata><tw-passagedata pid="55" name="Welcome 2" tags="" position="447,3" size="100,100">You must be between the ages of 8 to 15 to enter the spelling bee. Are you within the proper age limit for this bee?
 
 (link-reveal: &quot;Yes.&quot;)[
 
@@ -750,7 +831,7 @@ Hmm, you look a bit old for your age.
 (link-reveal: &quot;I swear.&quot;)[
 
 Perfect. You&#39;re #139. (link-goto: &quot;Go get in line over there.&quot;, &quot;Line&quot;)]
-]</tw-passagedata><tw-passagedata pid="57" name="Study Guide 5a" tags="" position="618,2743" size="100,100">(link-reveal: &quot;excruciating&quot;)[
+]</tw-passagedata><tw-passagedata pid="56" name="Study Guide 5a" tags="" position="618,2745" size="100,100">(link-reveal: &quot;excruciating&quot;)[
 	&amp;nbsp ikˈskro͞oSHēˌādiNG
 	&amp;nbsp &lt;i&gt;adjective&lt;/i&gt;
 	&amp;nbsp intensely painful.
@@ -799,7 +880,7 @@ Perfect. You&#39;re #139. (link-goto: &quot;Go get in line over there.&quot;, &q
 	&amp;nbsp The interstice of sunlight through the window was the perfect place for a cat nap.
 ]
 
-(link-goto: &quot;Back&quot;, &quot;Night 5a&quot;)</tw-passagedata><tw-passagedata pid="58" name="Line 6" tags="" position="812,1964" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+(link-goto: &quot;Back&quot;, &quot;Night 5a&quot;)</tw-passagedata><tw-passagedata pid="57" name="Line 6" tags="" position="810,1968" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
 Kaylee is called to stage. (if: $meanToKaylee is true)[She looks less confident than usual.]
 
 &quot;Well hello there, Miss #99. I hope you continue to impress me,&quot; Judge Holly says. &quot;Your word is (link-reveal: &quot;&#39;scherenschnitte.&#39;&quot;)[
@@ -812,9 +893,13 @@ Kaylee is called to stage. (if: $meanToKaylee is true)[She looks less confident 
 
 Kaylee stomps off stage.
 
-(link-goto: &quot;Continue&quot;, &quot;Test 6&quot;)
+(link-goto: &quot;Continue&quot;, (either: &quot;Test 6&quot;, &quot;Test 6a&quot;, &quot;Test 6b&quot;))
 ]
-]</tw-passagedata><tw-passagedata pid="59" name="Test 6" tags="" position="808,2084" size="100,100">Your word is: (audio of word) &lt;!--excruciating--&gt;
+]</tw-passagedata><tw-passagedata pid="58" name="Test 6" tags="" position="808,2084" size="100,100">Your word is:  &lt;!--excruciating--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/excruciating.ogg&quot;&gt;
+&lt;/audio&gt;
 &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
 There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
 &lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
@@ -828,19 +913,22 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="60" name="Enter Word 6.1" tags="" position="807,2195" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="59" name="Enter Word 6.1" tags="" position="919,2083" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 6.2&quot;)</tw-passagedata><tw-passagedata pid="61" name="Enter Word 6.2" tags="" position="806,2307" size="100,100">{(if: $word3 is &quot;excruciating&quot;)[
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 6.2&quot;)</tw-passagedata><tw-passagedata pid="60" name="Enter Word 6.2" tags="" position="1049,2082" size="100,100">{(if: $word3 is &quot;excruciating&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 6&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 6&quot;)
-]}</tw-passagedata><tw-passagedata pid="62" name="Fail 6" tags="" position="686,2283" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/graphics/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+]}</tw-passagedata><tw-passagedata pid="61" name="Fail 6" tags="" position="686,2283" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 &quot;Oh #139, you tried your hardest. Goodbye and good luck!&quot;
 
 &lt;p&gt;You have been eliminated from the Badger Valley Regional Spelling Bee. Your parents are very dissappointed in you.&lt;/p&gt;
 
-(link-goto: &quot;Retry&quot;, &quot;Test 6&quot;)
-(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)</tw-passagedata><tw-passagedata pid="63" name="After Word 6" tags="" position="807,2429" size="100,100">Aiden is called to stage.
+(link-goto: &quot;Retry&quot;, &quot;Line 6&quot;)
+(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/fail.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="62" name="After Word 6" tags="" position="807,2429" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+Aiden is called to stage.
 
 &quot;Your word is claustrophobia,&quot; (link-reveal: &quot;Judge Holly says.&quot;)[
 
@@ -854,10 +942,11 @@ The crowd cheers.
 ]
 
 
-</tw-passagedata><tw-passagedata pid="64" name="Aiden 9" tags="" position="802,2546" size="100,100">&quot;I&#39;m so happy it&#39;s me and you, $name,&quot; Aiden says. {(if: $meanToBhindaya is true)[&quot;I still wonder what Bhindaya is up to now...so, want to hang out? Or are you just going to study?&quot;&quot;](else-if: $meanToBhindaya is false)[&quot;I wouldn&#39;t want to have to compete against my girlfriend Bhindaya for the title. So, want to hang out? Or are you just going to study?&quot;]}
+</tw-passagedata><tw-passagedata pid="63" name="Aiden 9" tags="" position="802,2546" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;I&#39;m so happy it&#39;s me and you, $name,&quot; Aiden says. {(if: $meanToBhindaya is true)[&quot;I still wonder what Bhindaya is up to now...so, want to hang out? Or are you just going to study?&quot;&quot;](else-if: $meanToBhindaya is false)[&quot;I wouldn&#39;t want to have to compete against my girlfriend Bhindaya for the title. So, want to hang out? Or are you just going to study?&quot;]}
 
 (link-goto: &quot;Hang out&quot;, &quot;Aiden 10&quot;)
-(link-goto: &quot;Study&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="65" name="Study Guide 6" tags="" position="1104,2547" size="100,100">(link-reveal: &quot;camaraderie&quot;)[
+(link-goto: &quot;Study&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="64" name="Study Guide 6" tags="" position="1104,2547" size="100,100">(link-reveal: &quot;camaraderie&quot;)[
 	&amp;nbsp kaməˈrädərē
 	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
 	&amp;nbsp mutual trust and friendship among people who spend a lot of time together.
@@ -906,10 +995,11 @@ The crowd cheers.
 	&amp;nbsp The phlegmatic child showed no emotion as he was escorted off the stage.
 ]
 
-(link-goto: &quot;Back&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="66" name="Night 6" tags="" position="950,2546" size="100,100">You&#39;re alone in your hotel room. Your parents are here, watching you not study.
+(link-goto: &quot;Back&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="65" name="Night 6" tags="" position="950,2546" size="100,100">You&#39;re alone in your hotel room. Your parents are here, watching you not study.
 
 (link-goto: &quot;Study&quot;, &quot;Study Guide 6&quot;)
-(link-goto: &quot;Sleep&quot;, &quot;Morning 7&quot;)</tw-passagedata><tw-passagedata pid="67" name="Aiden 10" tags="" position="804,2676" size="100,100">&quot;I can&#39;t go back to my room yet, I&#39;m just so nervous and my parents will be freaking out wanting me to win this,&quot; Aiden says as the two of you walk together. 
+(link-goto: &quot;Sleep&quot;, &quot;Morning 7&quot;)</tw-passagedata><tw-passagedata pid="66" name="Aiden 10" tags="" position="804,2676" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;I can&#39;t go back to my room yet, I&#39;m just so nervous and my parents will be freaking out wanting me to win this,&quot; Aiden says as the two of you walk together. 
 
 (link-reveal: &quot;Same.&quot;)[
 
@@ -919,14 +1009,20 @@ The crowd cheers.
 
 (link-goto: &quot;Fuck over Aiden&quot;, &quot;Aiden 11b&quot;)
 (link-goto: &quot;Don&#39;t fuck over Aiden&quot;, &quot;Aiden 11a&quot;)
-]</tw-passagedata><tw-passagedata pid="68" name="Aiden 11a" tags="" position="762,2804" size="100,100">You and Aiden go outside to sit and talk. It&#39;s a beautiful, sunny day.
+]</tw-passagedata><tw-passagedata pid="67" name="Aiden 11a" tags="" position="762,2804" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+You and Aiden go outside to sit and talk. It&#39;s a beautiful, sunny day.
 
 &quot;This is more like it,&quot; Aiden looks up at the sky. &quot;That&#39;s pretty embarrassing, what I just admitted to you. So $name, what are you most afraid of?&quot;
 
 &lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;You are most afraid of...(type enter when done)&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $fear to textbox1)$fear]
 
 (link-goto: &quot;Answer&quot;, &quot;Fear Error Check&quot;)
-</tw-passagedata><tw-passagedata pid="69" name="Aiden 11a.1" tags="" position="759,3030" size="100,100">&quot;That&#39;s not so weird,&quot; Aiden says. &quot;Here&#39;s another question, what do you think the most beautiful word in the English language is?&quot;
+</tw-passagedata><tw-passagedata pid="68" name="Aiden 11a.1" tags="" position="759,3030" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;That&#39;s not so weird,&quot; Aiden says. &quot;But what I&#39;m really afraid of lately, is that my parents are divorcing... I know they are, but they don&#39;t know I know. They are waiting until after the bee. So stupid. Just get it over with, you know?&quot;
+
+(link-reveal: &quot;I feel like I barely know my parents.&quot;)[
+
+&quot;That&#39;s normal to me,&quot; Aiden says. &quot;Here&#39;s another question, what do you think the most beautiful word in the English language is?&quot;
 
 (link-reveal: &quot;Hmm...&quot;)[
 
@@ -939,48 +1035,36 @@ The crowd cheers.
 (link-goto: &quot;Go to your room&quot;, &quot;Night 6&quot;)
 ]
 ]
-
-(set: $meanToAiden to false)</tw-passagedata><tw-passagedata pid="70" name="Aiden 11b" tags="" position="879,2806" size="100,100">(link-reveal: &quot;Let&#39;s go outside. But first I need to grab something from my room.&quot;)[
+]
+(set: $meanToAiden to false)
+(set: $bad to it - 1)
+</tw-passagedata><tw-passagedata pid="69" name="Aiden 11b" tags="" position="879,2806" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+(link-reveal: &quot;Let&#39;s go outside. But first I need to grab something from my room.&quot;)[
 
 &quot;Sure,&quot; Aiden says. &quot;That&#39;s pretty embarrassing, what I just admitted to you. So $name, what are you most afraid of?&quot;
 
 &lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;You are most afraid of...(type enter when done)&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $fear to textbox1)$fear]
 
 (link-goto: &quot;Answer&quot;, &quot;Fear Error Check b&quot;)
-]</tw-passagedata><tw-passagedata pid="71" name="Testing" tags="" position="1495,2794" size="100,100">(set: $fear to &quot;bugs&quot;)
-$fear
-(set: $zero to &quot;bug&quot;)
-$zero
-
-(set: $count to (count: &quot;Though&quot;, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
-
-$count
-
-(if: $count &lt; 0)[test]</tw-passagedata><tw-passagedata pid="72" name="Welcome 1 Test" tags="" position="1353,2791" size="100,100">Welcome to the 16th Annual Badger Valley Regional Spelling Bee. Please enter your name. 
-
-&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;TEST&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $name to textbox1)$name]
-
-(link-goto: &quot;Submit&quot;, &quot;Welcome 2 Test&quot;)
-
-</tw-passagedata><tw-passagedata pid="73" name="Welcome 2 Test" tags="" position="1349,2912" size="100,100">(set: $count to (count: $name, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
-(if: $count &lt; 1)[Invalid name. Please try again.]</tw-passagedata><tw-passagedata pid="74" name="Welcome Error Check" tags="" position="330,1" size="100,100">(set: $count to (count: $name, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+]</tw-passagedata><tw-passagedata pid="70" name="Welcome Error Check" tags="" position="330,1" size="100,100">(set: $count to (count: $name, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
 (if: $count &lt; 1 or $count &gt; 10)[Invalid name. Please try again. (Name must contain at least one lowercase letter and cannot be more than 10 characters.)
 
 (link-goto: &quot;Retry&quot;, &quot;Welcome 1&quot;)]
 (if: $count &gt;= 1 and $count &lt;= 10)[(go-to: &quot;Welcome 2&quot;)]
 
-</tw-passagedata><tw-passagedata pid="75" name="Fear Error Check" tags="" position="760,2919" size="100,100">(set: $count2 to (count: $fear, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+</tw-passagedata><tw-passagedata pid="71" name="Fear Error Check" tags="" position="760,2919" size="100,100">(set: $count2 to (count: $fear, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
 (if: $count2 &lt; 1 or $count2 &gt;= 20)[Invalid input. (Must contain at least one lowercase letter and be less than 20 characters.)
 
 (link-goto: &quot;Retry&quot;, &quot;Aiden 11a&quot;)
 (link-goto: &quot;Continue anyways&quot;, &quot;Aiden 11a.1&quot;)]
 (if: $count2 &gt;= 1 and $count2 &lt; 20)[(go-to: &quot;Aiden 11a.1&quot;)]
-&lt;!-- Error check for when you do the trophies: If it&#39;s over 20 characters or less than 1, display message that doesn&#39;t include getting over your own fear. Will need to use count of bad points and bools to go to good ending or bad ending. --&gt;</tw-passagedata><tw-passagedata pid="76" name="Fear Error Check b" tags="" position="878,2919" size="100,100">(set: $count2 to (count: $fear, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+&lt;!-- Error check for when you do the trophies: If it&#39;s over 20 characters or less than 1, display message that doesn&#39;t include getting over your own fear. Will need to use count of bad points and bools to go to good ending or bad ending. --&gt;</tw-passagedata><tw-passagedata pid="72" name="Fear Error Check b" tags="" position="878,2919" size="100,100">(set: $count2 to (count: $fear, &quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
 (if: $count2 &lt; 1 or $count2 &gt;= 20)[Invalid input. (Must contain at least one lowercase letter and be less than 20 characters.)
 
 (link-goto: &quot;Retry&quot;, &quot;Aiden 11b&quot;)
 (link-goto: &quot;Continue anyways&quot;, &quot;Aiden 11b.1&quot;)]
-(if: $count2 &gt;= 1 and $count2 &lt; 20)[(go-to: &quot;Aiden 11b.1&quot;)]</tw-passagedata><tw-passagedata pid="77" name="Aiden 11b.1" tags="" position="878,3032" size="100,100">&quot;That&#39;s not so weird,&quot; Aiden says.
+(if: $count2 &gt;= 1 and $count2 &lt; 20)[(go-to: &quot;Aiden 11b.1&quot;)]</tw-passagedata><tw-passagedata pid="73" name="Aiden 11b.1" tags="" position="878,3032" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;That&#39;s not so weird,&quot; Aiden says.
 
 (link-reveal: &quot;You pass by a janitor&#39;s closet&quot;)[
 
@@ -995,8 +1079,8 @@ You notice a nearby maid cart that has been abandoned. Holding the closet door s
 
 (set: $meanToAiden to true)
 (set: $bad to it + 1)
-</tw-passagedata><tw-passagedata pid="78" name="Morning 7" tags="" position="807,3161" size="100,100">(if: $meanToAiden is false)[(go-to: &quot;Morning 7a&quot;)]
-(if: $meanToAiden is true)[(go-to: &quot;Morning 7b&quot;)]</tw-passagedata><tw-passagedata pid="79" name="Morning 7a" tags="" position="729,3284" size="100,100">It&#39;s finals day.
+</tw-passagedata><tw-passagedata pid="74" name="Morning 7" tags="" position="808,3161" size="100,100">(if: $meanToAiden is false)[(go-to: &quot;Morning 7a&quot;)]
+(if: $meanToAiden is true)[(go-to: &quot;Morning 7b&quot;)]</tw-passagedata><tw-passagedata pid="75" name="Morning 7a" tags="" position="729,3284" size="100,100">It&#39;s finals day.
 
 You&#39;re standing behind the curtain, waiting for Judge Holly to finish the day&#39;s introductions and call you on stage.
 
@@ -1010,10 +1094,10 @@ It&#39;s Aiden, standing behind you and smiling. &quot;Nervous?&quot; He asks.
 
 (link-reveal: &quot;Before you can answer, Judge Holly calls you on stage&quot;)[
 
-(link-goto: &quot;You&#39;re first&quot;, &quot;Finals 1&quot;)
+(link-goto: &quot;You&#39;re first!&quot;, &quot;Finals 1&quot;)
 ]
 ]
-]</tw-passagedata><tw-passagedata pid="80" name="Morning 7b" tags="" position="854,3287" size="100,100">It&#39;s finals day.
+]</tw-passagedata><tw-passagedata pid="76" name="Morning 7b" tags="" position="854,3287" size="100,100">It&#39;s finals day.
 
 You&#39;re standing behind the curtain, waiting for Judge Holly to finish the day&#39;s introductions and call you on stage.
 
@@ -1021,15 +1105,19 @@ You&#39;re standing behind the curtain, waiting for Judge Holly to finish the da
 
 &quot;You psycho!&quot; Aiden screams at you. &quot;What&#39;s wrong with you? I thought we were friends?&quot;
 
-(link-reveal: &quot;It&#39;s just competition&quot;)[
+(link-reveal: &quot;It&#39;s just competition.&quot;)[
 
 &quot;What were you thinking, that I&#39;d be so traumatized I&#39;d drop out or something?&quot; Aiden glares at you. &quot;Well, I hope you studied, because I&#39;m going to destroy you!&quot;
 
 Before you can answer, Judge Holly calls your name.
 
-(link-goto: &quot;You&#39;re first&quot;, &quot;Finals 1&quot;)
+(link-goto: &quot;You&#39;re first!&quot;, &quot;Finals 1&quot;)
 ]
-]</tw-passagedata><tw-passagedata pid="81" name="Test 1a" tags="" position="571,337" size="100,100">Your word is: (audio of word) &lt;!-- embarrass --&gt;
+]</tw-passagedata><tw-passagedata pid="77" name="Test 1a" tags="" position="571,337" size="100,100">Your word is: &lt;!-- embarrass --&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/embarrass.ogg&quot;&gt;
+&lt;/audio&gt;
 &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
 There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
 &lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
@@ -1043,7 +1131,11 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="82" name="Test 1b" tags="" position="572,227" size="100,100">Your word is: (audio of word) &lt;!-- liaison --&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="78" name="Test 1b" tags="" position="572,227" size="100,100">Your word is: (audio of word) &lt;!-- liaison --&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/liaison.ogg&quot;&gt;
+&lt;/audio&gt;
 &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
 There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
 &lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
@@ -1057,18 +1149,284 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="83" name="Enter Word 1a.1" tags="" position="684,338" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="79" name="Enter Word 1a.1" tags="" position="684,338" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 1a.2&quot;)</tw-passagedata><tw-passagedata pid="84" name="Enter Word 1a.2" tags="" position="798,337" size="100,100">{(if: $word1 is &quot;embarrass&quot;)[
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 1a.2&quot;)</tw-passagedata><tw-passagedata pid="80" name="Enter Word 1a.2" tags="" position="798,337" size="100,100">{(if: $word1 is &quot;embarrass&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 1&quot;)
-]}</tw-passagedata><tw-passagedata pid="85" name="Enter Word 1b.1" tags="" position="688,226" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+]}</tw-passagedata><tw-passagedata pid="81" name="Enter Word 1b.1" tags="" position="688,225" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 1b.2&quot;)</tw-passagedata><tw-passagedata pid="86" name="Enter Word 1b.2" tags="" position="801,226" size="100,100">{(if: $word1 is &quot;liaison&quot;)[
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 1b.2&quot;)</tw-passagedata><tw-passagedata pid="82" name="Enter Word 1b.2" tags="" position="801,226" size="100,100">{(if: $word1 is &quot;liaison&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 1&quot;)
+]}</tw-passagedata><tw-passagedata pid="83" name="To-Dos" tags="" position="750,23" size="100,100">Design:
+- Finish tracing and implementing all images
+- Use JS to improve the audio player
+- Maybe have mom record the judge&#39;s other short openers? and re-do balloonist
+
+Cleanup/Busywork:
+- Tweak/improve sentences
+
+</tw-passagedata><tw-passagedata pid="84" name="Test 2a" tags="" position="574,1556" size="100,100">Your word is:  &lt;!--severely--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/severely.ogg&quot;&gt;
+&lt;/audio&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;The routine appendectomy left the child ________ disfigured.&quot;]
+	
+(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word 2a.1&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly is watching you!&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="85" name="Enter Word 2a.1" tags="" position="691,1555" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 2a.2&quot;)</tw-passagedata><tw-passagedata pid="86" name="Enter Word 2a.2" tags="" position="804,1553" size="100,100">{(if: $word2 is &quot;severely&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
+]}</tw-passagedata><tw-passagedata pid="87" name="Test 2b" tags="" position="577,1672" size="100,100">Your word is: &lt;!--nursery--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/nursery.ogg&quot;&gt;
+&lt;/audio&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;The parents sometimes wish they&#39;d left him at the ________.&quot;]
+	
+(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word 2b.1&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly is watching you!&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="88" name="Enter Word 2b.2" tags="" position="808,1672" size="100,100">{(if: $word2 is &quot;nursery&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
+]}</tw-passagedata><tw-passagedata pid="89" name="Enter Word 2b.1" tags="" position="695,1674" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 2b.2&quot;)</tw-passagedata><tw-passagedata pid="90" name="Test 6a" tags="" position="803,2193" size="100,100">Your word is: &lt;!--barrette--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/barrette.ogg&quot;&gt;
+&lt;/audio&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;I have no idea why she thought that ________ looked good.&quot;]
+	
+(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word 6a.1&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly is watching you!&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="91" name="Test 6b" tags="" position="802,2306" size="100,100">Your word is: &lt;!--concierge--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/concierge.ogg&quot;&gt;
+&lt;/audio&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;The manager kept trying to explain to the guests that the Motel 6 does not have a ________.&quot;]
+	
+(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word 6b.1&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly is watching you!&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="92" name="Enter Word 6b.1" tags="" position="926,2303" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 6b.2&quot;)</tw-passagedata><tw-passagedata pid="93" name="Enter Word 6b.2" tags="" position="1047,2305" size="100,100">{(if: $word3 is &quot;concierge&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 6&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 6&quot;)
+]}</tw-passagedata><tw-passagedata pid="94" name="Enter Word 6a.2" tags="" position="1042,2194" size="100,100">{(if: $word3 is &quot;barrette&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;After Word 6&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 6&quot;)
+]}</tw-passagedata><tw-passagedata pid="95" name="Enter Word 6a.1" tags="" position="921,2194" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 6a.2&quot;)</tw-passagedata><tw-passagedata pid="96" name="Finals 1" tags="" position="796,3401" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;I&#39;m not really sure why this had to be seven days, start with the hard ones and eliminate the weak from the get-go, that&#39;s what I always say, (link-reveal: &quot;good thing I love my job.&quot;)[
+
+&quot;I know these two have {(if: $meanToAiden is true)[become quite the little enemies](else-if: $meanToAiden is false)[have become quite good friends]}, so lets enjoy watching this healthy competition before it&#39;s over.
+
+(link-goto: &quot;Let&#39;s begin.&quot;,(either: &quot;Test Finals&quot;, &quot;Test Finalsa&quot;, &quot;Test Finalsb&quot;))
+
+]
+
+(set: $meanToAiden to false)</tw-passagedata><tw-passagedata pid="97" name="Test Finalsa" tags="" position="794,3623" size="100,100">Your word is:  &lt;!--bodhisattva--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/boddhisattva.ogg&quot;&gt;
+&lt;/audio&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;The ________ always let him eat the last piece of pizza.&quot;]
+	
+(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word Finalsa.1&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly is watching you!&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="98" name="Test Finals" tags="" position="798,3511" size="100,100">Your word is:  &lt;!--camaraderie--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/camarderie.ogg&quot;&gt;
+&lt;/audio&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;A genuine ________ appeared to exist between the two finalists.&quot;]
+	
+(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word Finals.1&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly is watching you!&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="99" name="Test Finalsb" tags="" position="795,3732" size="100,100">Your word is:  &lt;!--impecunious--&gt;
+
+&lt;audio controls
+  src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/impecunious.ogg&quot;&gt;
+&lt;/audio&gt;
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;body&gt;
+There&#39;s a piece of paper on the podium, where you can practice writing down the word: &lt;input type=&quot;text&quot; name=&quot;fname&quot; id=&quot;fname&quot; onblur=&quot;myFunction()&quot;&gt;
+&lt;p&gt;(link-reveal: &quot;Would you use it in a sentence, please?&quot;)[
+
+	&quot;The ________ student accepted the high-interest rate loan.&quot;]
+	
+(link-goto: &quot;I&#39;m ready to spell the word&quot;, &quot;Enter Word Finalsb.1&quot;)
+
+&lt;script&gt;function myFunction() {
+	var x = document.getElementById(&quot;fname&quot;);
+	x.value = &quot;Judge Holly is watching you!&quot;;
+}&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="100" name="Intro 2" tags="" position="454,452" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;\
+&lt;font color=&quot;fuchsia&quot;&gt;Get Bhindaya&#39;s attention(mouseover: &quot;Get Bhindaya&#39;s attention&quot;)[
+(She looks uncomfortable, and continues to pay attention.)]&lt;/font&gt;
+
+&quot;I forgot to introduce myself. My name is April Rose Holly, and I&#39;ll be your host for this event. Before I was a full-time regional spelling bee judge I was a high school English teacher, and before that I was an executive secretary. Back in those days we used Windows 98, and Word didn&#39;t put that red squiggly line under all your misspellings, (link-reveal: &quot;you had to run a manual spell check at the end.&quot;) [
+
+&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;fuchsia&quot;&gt;Wave to your parents(mouseover: &quot;Wave to your parents&quot;)[
+(They don&#39;t appear to be in the audience.)]&lt;/font&gt;&lt;/div&gt;\
+
+&quot;And before I was a secretary I was making my way through the pageant circuit. Some of you may recognize me as 1991&#39;s Miss Central Badger Valley County!&quot; Judge Holly smiles and waves to the crowd. &quot;Those days are behind me but my love for regional competition never died. Hosting these bees is my passion.
+
+(link-goto: &quot;The rules are simple.&quot;, &quot;Rules&quot;)
+
+&lt;font color=&quot;fuchsia&quot;&gt;Roll your eyes(mouseover: &quot;Roll your eyes&quot;)[
+(The girl who&#39;s marked as #99 sees you and giggles. She rolls her eyes back at you.)]&lt;/font&gt;
+
+]
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/intro2.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="101" name="Enter Word Finals.1" tags="" position="922,3510" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word Finals.2&quot;)</tw-passagedata><tw-passagedata pid="102" name="Enter Word Finals.2" tags="" position="1042,3510" size="100,100">{(if: $word3 is &quot;camaraderie&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;Win&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 7&quot;)
+]}</tw-passagedata><tw-passagedata pid="103" name="Fail 7" tags="" position="598,3498" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;The winner is Aiden!&quot;
+
+(link-goto: &quot;Retry&quot;, &quot;Finals 1&quot;)
+(link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/fail.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="104" name="Good Ending" tags="" position="339,3390" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/trophy.png?raw=true&quot; class=&quot;center&quot;&gt;
+
+The crowd cheers for you. 
+
+Aiden smiles at you. &quot;I&#39;m glad it was you,&quot; he says.
+
+Yes! You did it! You won based entirely on your own merit, and made some great friends along the way.
+
+After winning the Regional Spelling Bee, you went on to compete in the National Championships. You destroy the competition by studying hard, and manage to get into your first choice of colleges on scholarship. You keep in close touch with Aiden and Bhindaya, and end up being a bridesmaid at their wedding. {(if: $count2 &gt;= 20)[You graduate with honors, get your dream job, and even overcome your greateast fears.](else-if: $count2 &lt; 20)[You graduate with honors, get your dream job, and even overcome your fear of $fear.]}
+
+You live your best life, and die at the age of 112, in Egyptian cotton sheets, surrounded by friends and family.
+
+Congratulations, #139!
+
+(link-goto: &quot;Replay&quot;, &quot;Welcome 1&quot;)
+(link-goto: &quot;Finish&quot;, &quot;Link to rate and review page?&quot;)
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/win.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="105" name="Mixed Ending" tags="" position="339,3500" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/trophy.png?raw=true&quot; class=&quot;center&quot;&gt;
+
+The crowd cheers for you. 
+
+{(if: $meanToAiden is true)[
+Aiden glares at you from your side. &quot;Anyone but you,&quot; he mutters. You ignore him and rush to grab your trophy from Judge Holly&#39;s hands.](else-if: $meanToAiden is false)[Aiden smiles at you. &quot;I&#39;m glad it was you,&quot; he says.&quot;]}
+
+Yes! You did it! You might have had your moments of cruelty, but you learned a lot along the way.
+
+After winning the Regional Spelling Bee, you went on to compete in the National Championships. Your so-so studying skills helped you out until the end, when you lost in the finals. The achievement of second place was still commendable, and you ended up getting into one of the colleges of your choice.
+
+You had your ups and downs, but continued to grow and mature as a person throughout the years. You lived an ultimately fulfilling life, and died surrounded by friends and family.
+
+Congratulations, #139!
+
+(link-goto: &quot;Replay&quot;, &quot;Welcome 1&quot;)
+(link-goto: &quot;Finish&quot;, &quot;Link to rate and review page?&quot;)
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/win.ogg&quot; autoplay&gt;&lt;/audio&gt;
+
+</tw-passagedata><tw-passagedata pid="106" name="Bad Ending" tags="" position="338,3615" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/trophy.png?raw=true&quot; class=&quot;center&quot;&gt;
+The crowd cheers for you. 
+
+Aiden glares at you from your side. &quot;Anyone but you,&quot; he mutters. You ignore him and rush to grab your trophy from Judge Holly&#39;s hands.
+
+Yes! You did it! And who cares who you had to step on your way to get here?
+
+After winning the Regional Spelling Bee, you went on to compete in the National Championships. However, due to poor studying skills, you were eliminated early on from the finals. You cheated on the SATs and managed to get into a top school, but when you struggled to maintain your grades, you attempted to hack the school&#39;s computer system and change your grades. You were expelled.
+
+You turned to drugs, and had some fun partying for awhile, but eventually ended up on the streets. {(if: $count2 &gt;= 20)[You never overcame your greatest fears and were found dead on the streets before your 25th birthday.](else-if: $count2 &lt; 20)[You never overcame your fear of $fear and were found dead on the streets before your 25th birthday.]}
+
+Congratulations, #139!
+
+(link-goto: &quot;Replay&quot;, &quot;Welcome 1&quot;)
+(link-goto: &quot;Finish&quot;, &quot;Link to rate and review page?&quot;)
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/win.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="107" name="Win" tags="" position="467,3500" size="100,100">(if: $bad is 4)[(go-to: &quot;Bad Ending&quot;)]
+(if: $bad &lt; 4 and &gt; -4)[(go-to: &quot;Mixed Ending&quot;)]
+(if: $bad is -4)[(go-to: &quot;Bad Ending&quot;)]
+
+&lt;!-- added -1 counter to all good options so just need to check and make sure this works --&gt;</tw-passagedata><tw-passagedata pid="108" name="Enter Word Finalsa.1" tags="" position="920,3620" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word Finalsa.2&quot;)</tw-passagedata><tw-passagedata pid="109" name="Enter Word Finalsa.2" tags="" position="1047,3623" size="100,100">{(if: $word3 is &quot;bodhisattva&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;Win&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 7&quot;)
+]}</tw-passagedata><tw-passagedata pid="110" name="Enter Word Finalsb.1" tags="" position="921,3734" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word Finalsb.2&quot;)</tw-passagedata><tw-passagedata pid="111" name="Enter Word Finalsb.2" tags="" position="1049,3733" size="100,100">{(if: $word3 is &quot;impecunious&quot;)[
+	(link-goto: &quot;Perfect!&quot;, &quot;Win&quot;)
+](else:)[
+	(link-goto: &quot;Not even close!&quot;, &quot;Fail 7&quot;)
 ]}</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
