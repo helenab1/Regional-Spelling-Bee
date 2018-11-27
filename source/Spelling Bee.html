@@ -98,7 +98,15 @@ tw-link:hover, .enchantment-link:hover {
 
 
 
+
+
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
 
 
 
@@ -403,9 +411,9 @@ You bring the note back to Bhindaya.
 	]
 	
 (link-goto: &quot;Back&quot;, &quot;Night 1b&quot;)</tw-passagedata><tw-passagedata pid="17" name="Morning 2" tags="" position="458,1482" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
-It&#39;s the second day of the competition. You&#39;re back in line to go on stage, (link-reveal: &quot;listening to Judge Holly&#39;s opener.&quot;)[
+It&#39;s the second day of the competition. You&#39;re back in line to go on stage, listening to Judge Holly&#39;s opener.
 
-&quot;...and everyone, please remember to clear out quickly after the show tonight, as the SpringHill Suites (link-reveal: &quot;hosts bingo night on Tuesdays and Fridays.&quot;)[
+&quot;...and everyone, please remember to clear out quickly after the show this evening, as the SpringHill Suites (link-reveal: &quot;hosts Bingo Night on Tuesdays and Fridays.&quot;)[
 	
 	You watch as (link-reveal: &quot;most of the other kids head up on stage.&quot;)[
 		
@@ -424,9 +432,11 @@ It&#39;s the second day of the competition. You&#39;re back in line to go on sta
 		(else:)[Bhindaya spells her word correctly. (link-goto: &quot;It&#39;s your turn.&quot;, (either: &quot;Test 2&quot;, &quot;Test 2a&quot;, &quot;Test 2b&quot;))]}
 	]
 ]
-]
 
-&lt;!-- Works perfectly! --&gt;</tw-passagedata><tw-passagedata pid="18" name="Bhindaya 2a" tags="" position="23,914" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya.png?raw=true&quot; class=&quot;center&quot;&gt;
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/morning2.ogg&quot; autoplay&gt;&lt;/audio&gt;
+
+</tw-passagedata><tw-passagedata pid="18" name="Bhindaya 2a" tags="" position="23,914" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/bhindaya.png?raw=true&quot; class=&quot;center&quot;&gt;
 You bring the note back to Bhindaya.
 
 &quot;He wrote me a note?&quot; She says. &quot;That&#39;s so cute. I have to go read it and then study. See you tomorrow!&quot;
@@ -453,7 +463,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="20" name="Enter Word 2.1" tags="" position="686,1442" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="20" name="Enter Word 2.1" tags="" position="686,1442" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 2.2&quot;)</tw-passagedata><tw-passagedata pid="21" name="Fail 2" tags="" position="340,1480" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
 &quot;Oh #139, you sweet summer child. Goodbye and good luck!&quot;
@@ -555,9 +565,9 @@ Kaylee and Ayumi start giggling. &quot;Museum of literacy? Is that even real?&qu
 
 
 (link-goto: &quot;Back&quot;, &quot;Night 5&quot;)</tw-passagedata><tw-passagedata pid="27" name="Morning 6" tags="" position="812,1846" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
-It&#39;s the sixth day of the competition. You&#39;re back in line to go on stage. (link-reveal: &quot;Judge Holly is finishing up introductions.&quot;)[
+It&#39;s the sixth day of the competition. You&#39;re back in line to go on stage. Judge Holly is finishing up introductions.
 
-&quot;...it&#39;s the second to last night of the competition, and our goal is to get this down to two contestants. If each one of you gets every word correctly for the next six hours straight, well, (link-reveal: &quot;just remember it&#39;s okay to fail, alright?&quot;)[
+&quot;...it&#39;s the second to last night of the competition, and our goal is to get this down to two contestants. So, if each one of you gets every word correct for the next six hours straight - well, (link-reveal: &quot;just remember success isn&#39;t for everyone, okay?&quot;)[
 	
 	You watch as Ayumi gets called to stage. Kaylee is behind her in line, (link-reveal: &quot;holding her stomach and looking pale.&quot;)[(if: $wentWithAiden is true)[ You wonder what they got up to last night.]
 		
@@ -575,8 +585,9 @@ It&#39;s the sixth day of the competition. You&#39;re back in line to go on stag
 
 ]
 ]
-]
-</tw-passagedata><tw-passagedata pid="28" name="Kaylee 1" tags="" position="269,1944" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
+
+
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/morning6.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="28" name="Kaylee 1" tags="" position="269,1944" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/kaylee.png?raw=true&quot; class=&quot;center&quot;&gt;
 Kaylee and Akumi both link arms with you as you head towards the exit.
 
 &quot;So glad you came with us,&quot; Kaylee says. &quot;Those guys are such nerds.&quot;
@@ -791,13 +802,13 @@ She laughs. &quot;You aren&#39;t missing anything. In those times, literacy rate
 (link-goto: &quot;Continue&quot;, &quot;Aiden 8&quot;)
 ]
 ]</tw-passagedata><tw-passagedata pid="49" name="Aiden 8" tags="" position="534,2624" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/homelessman.png?raw=true&quot; class=&quot;center&quot;&gt;
-&quot;That was fun,&quot; Aiden says as the three of you head back to a hotel. You walk past a liquor store called &quot;Tony&#39;s.&quot;
+&quot;That was fun,&quot; Aiden says as the three of you head back to a hotel. You walk past a liquor store called &quot;Tony&#39;s.&quot; A homeless man sits on the curb by the liquor store. 
 
 &quot;Wait, let me buy a soda from here,&quot; Rajesh says.
 
 (link-reveal: &quot;You wait outside the store.&quot;)[
 
-A homeless man sits on the curb by the liquor store. &quot;Excuse me, could you please spare any change?&quot; He asks you.
+The man speaks to you. &quot;Excuse me, could you please spare any change?&quot; He asks you.
 
 (link-reveal: &quot;Give him change&quot;)[
 
@@ -826,7 +837,7 @@ Welcome to the 16th Annual Badger Valley Regional Spelling Bee. Please enter you
 
 This game features voice acting which is essential to gameplay (spelling words). Please use Firefox or Chrome for the best experience.
 
-</tw-passagedata><tw-passagedata pid="52" name="Enter Word 1.1" tags="" position="682,444" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+(set: $bad to 0)</tw-passagedata><tw-passagedata pid="52" name="Enter Word 1.1" tags="" position="681,445" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 1.2&quot;)</tw-passagedata><tw-passagedata pid="53" name="Enter Word 1.2" tags="" position="798,443" size="100,100">{(if: $word1 is &quot;impeccable&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
@@ -927,7 +938,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="59" name="Enter Word 6.1" tags="" position="919,2083" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="59" name="Enter Word 6.1" tags="" position="919,2083" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 6.2&quot;)</tw-passagedata><tw-passagedata pid="60" name="Enter Word 6.2" tags="" position="1049,2082" size="100,100">{(if: $word3 is &quot;excruciating&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 6&quot;)
@@ -960,7 +971,7 @@ The crowd cheers.
 &quot;I&#39;m so happy it&#39;s me and you, $name,&quot; Aiden says. {(if: $meanToBhindaya is true)[&quot;I still wonder what Bhindaya is up to now...so, want to hang out? Or are you just going to study?&quot;&quot;](else-if: $meanToBhindaya is false)[&quot;I wouldn&#39;t want to have to compete against my girlfriend Bhindaya for the title. So, want to hang out? Or are you just going to study?&quot;]}
 
 (link-goto: &quot;Hang out&quot;, &quot;Aiden 10&quot;)
-(link-goto: &quot;Study&quot;, &quot;Night 6&quot;)</tw-passagedata><tw-passagedata pid="64" name="Study Guide 6" tags="" position="1104,2547" size="100,100">(link-reveal: &quot;camaraderie&quot;)[
+(link-goto: &quot;Study&quot;, &quot;Night 6a&quot;)</tw-passagedata><tw-passagedata pid="64" name="Study Guide 6" tags="" position="1104,2547" size="100,100">(link-reveal: &quot;camaraderie&quot;)[
 	&amp;nbsp kaməˈrädərē
 	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
 	&amp;nbsp mutual trust and friendship among people who spend a lot of time together.
@@ -1052,7 +1063,7 @@ You and Aiden go outside to sit and talk. It&#39;s a beautiful, sunny day.
 ]
 (set: $meanToAiden to false)
 (set: $bad to it - 1)
-</tw-passagedata><tw-passagedata pid="69" name="Aiden 11b" tags="" position="879,2806" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
+</tw-passagedata><tw-passagedata pid="69" name="Aiden 11b" tags="" position="879,2805" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/aiden.png?raw=true&quot; class=&quot;center&quot;&gt;
 (link-reveal: &quot;Let&#39;s go outside. But first I need to grab something from my room.&quot;)[
 
 &quot;Sure,&quot; Aiden says. &quot;That&#39;s pretty embarrassing, what I just admitted to you. So $name, what are you most afraid of?&quot;
@@ -1145,7 +1156,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="78" name="Test 1b" tags="" position="572,227" size="100,100">Your word is: (audio of word) &lt;!-- liaison --&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="78" name="Test 1b" tags="" position="572,227" size="100,100">Your word is:  &lt;!-- liaison --&gt;
 
 &lt;audio controls
   src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/liaison.ogg&quot;&gt;
@@ -1163,22 +1174,22 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="79" name="Enter Word 1a.1" tags="" position="684,338" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="79" name="Enter Word 1a.1" tags="" position="687,339" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 1a.2&quot;)</tw-passagedata><tw-passagedata pid="80" name="Enter Word 1a.2" tags="" position="798,337" size="100,100">{(if: $word1 is &quot;embarrass&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 1&quot;)
-]}</tw-passagedata><tw-passagedata pid="81" name="Enter Word 1b.1" tags="" position="688,225" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+]}</tw-passagedata><tw-passagedata pid="81" name="Enter Word 1b.1" tags="" position="688,225" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 1b.2&quot;)</tw-passagedata><tw-passagedata pid="82" name="Enter Word 1b.2" tags="" position="801,226" size="100,100">{(if: $word1 is &quot;liaison&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 1&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 1&quot;)
 ]}</tw-passagedata><tw-passagedata pid="83" name="To-Dos" tags="" position="750,23" size="100,100">Design:
-- Finish tracing and implementing all images
 - Use JS to improve the audio player
 - Maybe have mom record the judge&#39;s other short openers? and re-do balloonist
+- broken endings points don&#39;t quite add up correctly
 
 Cleanup/Busywork:
 - Tweak/improve sentences
@@ -1201,7 +1212,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="85" name="Enter Word 2a.1" tags="" position="691,1555" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="85" name="Enter Word 2a.1" tags="" position="691,1555" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 2a.2&quot;)</tw-passagedata><tw-passagedata pid="86" name="Enter Word 2a.2" tags="" position="804,1553" size="100,100">{(if: $word2 is &quot;severely&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
@@ -1229,7 +1240,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 2&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 2&quot;)
-]}</tw-passagedata><tw-passagedata pid="89" name="Enter Word 2b.1" tags="" position="695,1674" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
+]}</tw-passagedata><tw-passagedata pid="89" name="Enter Word 2b.1" tags="" position="695,1674" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word2 to textbox1.toLowerCase())$word2]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 2b.2&quot;)</tw-passagedata><tw-passagedata pid="90" name="Test 6a" tags="" position="803,2193" size="100,100">Your word is: &lt;!--barrette--&gt;
 
@@ -1267,7 +1278,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="92" name="Enter Word 6b.1" tags="" position="926,2303" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="92" name="Enter Word 6b.1" tags="" position="926,2303" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word 6b.2&quot;)</tw-passagedata><tw-passagedata pid="93" name="Enter Word 6b.2" tags="" position="1047,2305" size="100,100">{(if: $word3 is &quot;concierge&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 6&quot;)
@@ -1277,18 +1288,21 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	(link-goto: &quot;Perfect!&quot;, &quot;After Word 6&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 6&quot;)
-]}</tw-passagedata><tw-passagedata pid="95" name="Enter Word 6a.1" tags="" position="921,2194" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+]}</tw-passagedata><tw-passagedata pid="95" name="Enter Word 6a.1" tags="" position="921,2194" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
 
-(link-goto: &quot;Submit&quot;, &quot;Enter Word 6a.2&quot;)</tw-passagedata><tw-passagedata pid="96" name="Finals 1" tags="" position="796,3401" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
-&quot;I&#39;m not really sure why this had to be seven days, start with the hard ones and eliminate the weak from the get-go, that&#39;s what I always say, (link-reveal: &quot;good thing I love my job.&quot;)[
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 6a.2&quot;)</tw-passagedata><tw-passagedata pid="96" name="Finals 1" tags="" position="796,3402" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
+&quot;I&#39;m not really sure why this had to be seven days. Start with the hard ones and eliminate the weak from the get-go, (link-reveal: &quot;that&#39;s what I always say.&quot;)[
 
 &quot;I know these two have {(if: $meanToAiden is true)[become quite the little enemies](else-if: $meanToAiden is false)[have become quite good friends]}, so lets enjoy watching this healthy competition before it&#39;s over.
 
-(link-goto: &quot;Let&#39;s begin.&quot;,(either: &quot;Test Finals&quot;, &quot;Test Finalsa&quot;, &quot;Test Finalsb&quot;))
+(link-goto: &quot;Let&#39;s begin.&quot;, &quot;Test Finals&quot;)
 
 ]
 
-(set: $meanToAiden to false)</tw-passagedata><tw-passagedata pid="97" name="Test Finalsa" tags="" position="794,3623" size="100,100">Your word is:  &lt;!--bodhisattva--&gt;
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/finals.ogg&quot; autoplay&gt;&lt;/audio&gt;
+</tw-passagedata><tw-passagedata pid="97" name="Test Finalsa" tags="" position="794,3623" size="100,100">Aiden spells his word correctly. He {(if: $meanToAiden is true)[glares at you.](else-if: $meanToAiden is false)[smiles at you.]}
+
+Your word is:  &lt;!--bodhisattva--&gt;
 
 &lt;audio controls
   src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/boddhisattva.ogg&quot;&gt;
@@ -1324,7 +1338,11 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="99" name="Test Finalsb" tags="" position="795,3732" size="100,100">Your word is:  &lt;!--impecunious--&gt;
+&lt;/html&gt;</tw-passagedata><tw-passagedata pid="99" name="Test Finalsb" tags="" position="795,3732" size="100,100">Aiden struggles with his next word: &lt;font color=&quot;fuchsia&quot;&gt;esquamulose &lt;/font&gt;&lt;font color=&quot;fuchsia&quot;&gt;(mouseover: &quot;esquamulose&quot;)[(&lt;i&gt;adjective&lt;/i&gt;, not covered in scales, or of scale like objects, a smooth skin.)]&lt;/font&gt;. &quot;E-S-C-U-A-M-A-L-O-S-E?&quot;
+
+&quot;Uh-oh, that&#39;s not quite right, honey. $name, this is sudden death. If you get this word correctly, (link-reveal: &quot;you are the winner!&quot;)[
+
+Your word is:  &lt;!--impecunious--&gt;
 
 &lt;audio controls
   src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/impecunious.ogg&quot;&gt;
@@ -1342,7 +1360,8 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 	x.value = &quot;Judge Holly is watching you!&quot;;
 }&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</tw-passagedata><tw-passagedata pid="100" name="Intro 2" tags="" position="454,452" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;\
+&lt;/html&gt;
+]</tw-passagedata><tw-passagedata pid="100" name="Intro 2" tags="" position="454,452" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;\
 &lt;font color=&quot;fuchsia&quot;&gt;Get Bhindaya&#39;s attention(mouseover: &quot;Get Bhindaya&#39;s attention&quot;)[
 (She looks uncomfortable, and continues to pay attention.)]&lt;/font&gt;
 
@@ -1360,10 +1379,10 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 
 ]
 
-&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/intro2.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="101" name="Enter Word Finals.1" tags="" position="922,3510" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/intro2.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="101" name="Enter Word Finals.1" tags="" position="922,3510" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word Finals.2&quot;)</tw-passagedata><tw-passagedata pid="102" name="Enter Word Finals.2" tags="" position="1042,3510" size="100,100">{(if: $word3 is &quot;camaraderie&quot;)[
-	(link-goto: &quot;Perfect!&quot;, &quot;Win&quot;)
+	(link-goto: &quot;Perfect!&quot;, &quot;Test Finalsa&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 7&quot;)
 ]}</tw-passagedata><tw-passagedata pid="103" name="Fail 7" tags="" position="598,3498" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/judgeholly.png?raw=true&quot; class=&quot;center&quot;&gt;
@@ -1372,7 +1391,7 @@ There&#39;s a piece of paper on the podium, where you can practice writing down 
 (link-goto: &quot;Retry&quot;, &quot;Finals 1&quot;)
 (link-goto: &quot;Restart&quot;, &quot;Welcome 1&quot;)
 
-&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/fail.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="104" name="Good Ending" tags="" position="339,3389" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/trophy.png?raw=true&quot; class=&quot;center&quot;&gt;
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/fail.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="104" name="Good Ending" tags="" position="338,3389" size="100,100">&lt;img src=&quot;https://github.com/helenab1/Spelling-Bee-Game/blob/master/source/trophy.png?raw=true&quot; class=&quot;center&quot;&gt;
 
 The crowd cheers for you. 
 
@@ -1425,23 +1444,81 @@ Congratulations, #139!
 (link-goto: &quot;Replay&quot;, &quot;Welcome 1&quot;)
 (link: &quot;Finish&quot;)[(goto-url: &#39;https://helenab1.itch.io/regional-spelling-bee&#39;)]
 
-&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/win.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="107" name="Win" tags="" position="467,3500" size="100,100">(if: $bad is 4)[(go-to: &quot;Bad Ending&quot;)]
-(if: $bad &lt; 4 and &gt; -4)[(go-to: &quot;Mixed Ending&quot;)]
-(if: $bad is -4)[(go-to: &quot;Bad Ending&quot;)]
+&lt;audio src=&quot;https://raw.githubusercontent.com/helenab1/Spelling-Bee-Game/master/audio/win.ogg&quot; autoplay&gt;&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="107" name="Win" tags="" position="467,3500" size="100,100">(if: $bad is &gt;= 3)[(go-to: &quot;Bad Ending&quot;)]
+(if: $bad &lt; 3 and &gt; 0)[(go-to: &quot;Mixed Ending&quot;)]
+(if: $bad is &lt;= 0)[(go-to: &quot;Bad Ending&quot;)]
 
-&lt;!-- added -1 counter to all good options so just need to check and make sure this works --&gt;</tw-passagedata><tw-passagedata pid="108" name="Enter Word Finalsa.1" tags="" position="920,3620" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+&lt;!-- added -1 counter to all good options so just need to check and make sure this works --&gt;</tw-passagedata><tw-passagedata pid="108" name="Enter Word Finalsa.1" tags="" position="920,3620" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word Finalsa.2&quot;)</tw-passagedata><tw-passagedata pid="109" name="Enter Word Finalsa.2" tags="" position="1047,3623" size="100,100">{(if: $word3 is &quot;bodhisattva&quot;)[
-	(link-goto: &quot;Perfect!&quot;, &quot;Win&quot;)
+	(link-goto: &quot;Perfect!&quot;, &quot;Test Finalsb&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 7&quot;)
-]}</tw-passagedata><tw-passagedata pid="110" name="Enter Word Finalsb.1" tags="" position="921,3734" size="100,100">&lt;input type=text placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
+]}</tw-passagedata><tw-passagedata pid="110" name="Enter Word Finalsb.1" tags="" position="921,3734" size="100,100">&lt;input type=text textarea spellcheck=&quot;false&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word3 to textbox1.toLowerCase())$word3]
 
 (link-goto: &quot;Submit&quot;, &quot;Enter Word Finalsb.2&quot;)</tw-passagedata><tw-passagedata pid="111" name="Enter Word Finalsb.2" tags="" position="1049,3733" size="100,100">{(if: $word3 is &quot;impecunious&quot;)[
 	(link-goto: &quot;Perfect!&quot;, &quot;Win&quot;)
 ](else:)[
 	(link-goto: &quot;Not even close!&quot;, &quot;Fail 7&quot;)
-]}</tw-passagedata></tw-storydata>
+]}</tw-passagedata><tw-passagedata pid="112" name="Night 6a" tags="" position="967,2673" size="100,100">You&#39;re alone in your hotel room. Your parents are here, watching you not study.
+
+(link-goto: &quot;Study&quot;, &quot;Study Guide 6a&quot;)
+(link-goto: &quot;Sleep&quot;, &quot;Morning 7&quot;)
+
+&lt;!-- for if you skip hanging with Aiden at a&#39;l --&gt;
+
+(set: $meanToAiden to false)</tw-passagedata><tw-passagedata pid="113" name="Study Guide 6a" tags="" position="1089,2670" size="100,100">(link-reveal: &quot;camaraderie&quot;)[
+	&amp;nbsp kaməˈrädərē
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp mutual trust and friendship among people who spend a lot of time together.
+	&amp;nbsp A genuine camaraderie appeared to exist between the two finalists.
+]
+(link-reveal: &quot;enervate&quot;)[
+	&amp;nbsp ˈenərˌvāt
+	&amp;nbsp &lt;i&gt;verb&lt;/i&gt;
+	&amp;nbsp cause (someone) to feel drained of energy or vitality; weaken.
+	&amp;nbsp The champagne appeared to enervate her ability to focus on the competition.
+]
+(link-reveal: &quot;bodhisattva&quot;)[
+	&amp;nbsp ˌbōdiˈsätvə,-ˈsət-
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp (in Mahayana Buddhism) a person who is able to reach nirvana but delays doing so out of compassion in order to save suffering beings.
+	&amp;nbsp The bodhisattva always let him eat the last piece of pizza.
+]
+(link-reveal: &quot;diaphanous&quot;)[
+	&amp;nbsp dīˈafənəs
+	&amp;nbsp &lt;i&gt;adjective&lt;/i&gt;
+	&amp;nbsp (especially of fabric) light, delicate, and translucent.
+	&amp;nbsp You could see she was quite cold in that skin-tight, diaphanous gown.
+]
+(link-reveal: &quot;impecunious&quot;)[
+	&amp;nbsp ˌimpəˈkyo͞onēəs
+	&amp;nbsp &lt;i&gt;adjective&lt;/i&gt;
+	&amp;nbsp having little or no money.
+	&amp;nbsp The impecunious student accepted the high-interest rate loan.
+]
+(link-reveal: &quot;tangential&quot;)[
+	&amp;nbsp tanˈjen(t)SHəl
+	&amp;nbsp &lt;i&gt;adjective&lt;/i&gt;
+	&amp;nbsp diverging from a previous course or line; erratic.
+	&amp;nbsp His tangential response was even more inappropriate than the question.
+]
+(link-reveal: &quot;chlorophyll&quot;)[
+	&amp;nbsp ˈklôrəˌfil
+	&amp;nbsp &lt;i&gt;noun&lt;/i&gt;
+	&amp;nbsp a green pigment, present in all green plants and in cyanobacteria, responsible for the absorption of light to provide energy for photosynthesis.
+	&amp;nbsp If only humans could produce chlorophyll, she&#39;d never have to move again.
+]
+(link-reveal: &quot;phlegmatic&quot;)[
+	&amp;nbsp fleɡˈmadik
+	&amp;nbsp &lt;i&gt;adjective&lt;/i&gt;
+	&amp;nbsp (of a person) having an unemotional and stolidly calm disposition.
+	&amp;nbsp The phlegmatic child showed no emotion as he was escorted off the stage.
+]
+
+(link-goto: &quot;Back&quot;, &quot;Night 6a&quot;)</tw-passagedata><tw-passagedata pid="114" name="testing" tags="" position="1479,94" size="100,100">&lt;input type=text autocorrect=&quot;off&quot; placeholder=&quot;Type here&quot; onchange=update1(this)&gt; &lt;script&gt;var textbox1 = &quot;Click submit &lt;u&gt;when your submission appears here&lt;/u&gt; (type enter when done).&quot;;function update1(v){textbox1=v.value}&lt;/script&gt; (live: 0.5s)[(set: $word1 to textbox1.toLowerCase())$word1]
+
+(link-goto: &quot;Submit&quot;, &quot;Enter Word 1b.2&quot;)</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
